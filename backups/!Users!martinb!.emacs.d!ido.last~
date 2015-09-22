@@ -31,25 +31,27 @@
 (
  "profiles.clj"
  "init.el"
+ "setup-flycheck.el"
+ "setup-clojure.el"
  "editing.el"
  "pipes.clj"
  "admin_dashboard.cljs"
  ".gitignore"
  "activation.cljs"
  "README.md"
- "project.clj"
- "user.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/martinb/.lein/" (22017 2709 0 0) "self-installs/" "repl-history" "profiles.clj" "leinrc" "credentials.clj.gpg" "credentials.clj" "../" "./")
+
+ ("/Users/martinb/.emacs.d/" (22017 6222 0 0) "vendor/" "url/" "themes/" "snippets/" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el~" "init.el" "ido.last" "games/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/" (22017 3427 0 0) "test/" "target/" "system.properties" "src/" "scripts/" "resources/" "README.md" "README.enc" "project.clj" "profiles.clj" "Procfile" "oracle-inventory.xml" "node.jar" "node.iml" "logs/" "LICENSE" "launch4j.xml" "figwheel_server.log" "env/" "config.edn~" "config.edn" "backup.zip" "alice.sec.asc" "alice.pub.asc" ".repl/" ".projectile" ".lein-repl-history" ".lein-failures" ".lein-env" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/.emacs.d/customizations/" (22017 2428 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
  ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/" (22016 10060 0 0) "user.clj" "dev_helpers.clj" "../" "./")
-
- ("/Users/martinb/.lein/" (22013 42770 0 0) "self-installs/" "repl-history" "profiles.clj" "leinrc" "credentials.clj.gpg" "credentials.clj" "../" "./")
-
- ("/Users/martinb/dev/clojure_apps/proton/node/" (22016 9052 0 0) "test/" "target/" "system.properties" "src/" "scripts/" "resources/" "README.md" "README.enc" "project.clj" "profiles.clj" "Procfile" "oracle-inventory.xml" "node.jar" "node.iml" "logs/" "LICENSE" "launch4j.xml" "figwheel_server.log" "env/" "config.edn~" "config.edn" "backup.zip" "alice.sec.asc" "alice.pub.asc" ".repl/" ".nrepl-port" ".lein-repl-history" ".lein-failures" ".lein-env" ".idea/" ".DS_Store" "../" "./")
-
- ("/Users/martinb/.emacs.d/" (22015 57706 0 0) "themes/" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" "../" "./")
 
  ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/" (22015 60652 0 0) "wizard.cljs" "utils.cljs" "upload.cljs" "tabs.cljs" "shared_forms.cljs" "setup_wizard.cljs" "server_status_view.cljs" "server_status.cljs" "server_api.cljs" "rpc.clj" "routes.cljs" "restore_wizard.cljs" "om_helpers.cljs" "initial_wizard.cljs" "html.cljs" "hint_view.cljs" "databases/" "core.cljs" "context_help.cljs" "admin_dashboard.cljs" "activation.cljs" "../" "./")
 
@@ -66,8 +68,6 @@
  ("/Users/martinb/dev/clojure_apps/proton/node/src/" (21819 64080 0 0) "cljs/" "clj/" "../" "./")
 
  ("/Users/martinb/dev/clojure_apps/proton/" (22010 45580 0 0) "XYNTServiceProject/" "test/" "spike-firebird/" "shared/" "security/" "riemann.log.2015-09-16.gz" "riemann.log" "provision/" "print-args/" "node/" "Neuboard Theme - WB0M35410.zip" "launch4j/" "keygen/" "ISS/" "health/" "doc/" "deployment/" "Bat_To_Exe_Converter/" "backend/" "auth/" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/martinb/.emacs.d/customizations/" (22015 12793 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
 
  ("/Users/martinb/dev/clojure_apps/Logoot/logoot/" (22015 11069 0 0) "test/" "target/" "src/" "resources/" "repl/" "README.md" "project.clj" "pom.xml.asc" "pom.xml" "out/" "Logoot.pdf" "logoot.iml" "LICENSE" "doc/" "CPU-20140902T231138.cpuprofile" "CPU-20140901T163718.cpuprofile" "cljs.jar" ".nrepl-port" ".lein-repl-history" ".lein-failures" ".lein-env" ".idea/" ".gitignore" ".git/" ".DS_Store" ".cljs_rhino_repl/" "../" "./")
 

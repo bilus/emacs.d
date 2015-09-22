@@ -88,9 +88,10 @@
      (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)))
 
 ;;; Set up syntax checking on the fly.
-;(require 'flycheck-clojure)
-;(add-hook 'cider-mode-hook (lambda ()
-;                             (when (s-ends-with-p ".clj" (buffer-file-name))
-;                               (flycheck-mode 1))))
-;	
-;(eval-after-load 'flycheck '(add-to-list 'flycheck-checkers 'clojure-cider-eastwood))
+;; (require 'flycheck-clojure)
+;; (add-hook 'cider-mode-hook (lambda ()
+                            ;; (when (s-ends-with-p ".clj" (buffer-file-name))
+                              ;; (flycheck-mode 1))))
+	
+;; (eval-after-load 'flycheck '(add-to-list 'flycheck-checkers 'kibit))
+;; (eval-after-load 'flycheck '(add-to-list 'flycheck-checkers 'typed))

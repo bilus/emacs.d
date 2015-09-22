@@ -1,0 +1,8 @@
+/auto-save-list/
+.DS_Store
+.recentf
+.smex-items
+/backups/
+/cider-history
+/ido.last
+/projectile-bookmarks.eld

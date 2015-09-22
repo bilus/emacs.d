@@ -2,10 +2,10 @@
 ;; ----- smex-history -----
 (
  load-file
+ rgrep
  cider-connect
  enable-paredit-mode
  newline-and-indent
- rgrep
  expand-region-abbrevs
  cider-jack-in
 )
@@ -14,10 +14,11 @@
 (
  (cider-jack-in . 2)
  (paredit-mode . 1)
- (rgrep . 4)
+ (rgrep . 7)
  (expand-region-abbrevs . 1)
  (newline-and-indent . 1)
- (load-file . 5)
+ (load-file . 11)
  (enable-paredit-mode . 2)
  (cider-connect . 2)
+ (cider-describe-nrepl-session . 1)
 )

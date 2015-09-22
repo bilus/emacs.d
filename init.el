@@ -12,9 +12,9 @@
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 ;(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
-;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
-;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
+;(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+;                         ("marmalade" . "http://marmalade-repo.org/packages/")
+;                         ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
 
 
 ;; Load and activate emacs packages. Do this first so that the
@@ -36,6 +36,10 @@
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
     paredit
 
+
+    ;; Autocompletion
+    company
+    
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
     clojure-mode
@@ -50,8 +54,9 @@
     clj-refactor
 
     ;; Syntax checking
-    ;flycheck
-    ;flycheck-pos-tip
+;    flycheck
+;    flycheck-clojure
+;    flycheck-pos-tip
     
     ;; Semantic region expansion
     expand-region
@@ -143,7 +148,7 @@
 
 ;; Minor customizations
 (tool-bar-mode -1)
-(setq nrepl-hide-special-buffers t)
+;(setq nrepl-hide-special-buffers t)
 
 (require 'expand-region)
 (global-set-key (kbd "C--") 'er/expand-region)
@@ -187,7 +192,11 @@
 (setq hscroll-step 0.5)
 
 ;; Load flycheck on demand.
-;
-;(load "setup-flycheck.el")
 ;(eval-after-load 'flycheck '(require 'setup-flycheck))
 
+;; OS/X dir
+(setq dired-use-ls-dired nil)
+
+;; Autocomplete.
+(global-company-mode)
+(global-set-key (kbd "TAB") #'company-indent-or-complete-common) ;; Use TAB for indenting AND for autocompletion.

@@ -2,6 +2,66 @@
 ;; Automatically written history of CIDER REPL session
 ;; Edit at your own risk
 
-("(start)" "(stop)" "(reset)" "(in-ns 'user)" "(backup-once user/system)" "(in-ns 'node.app)" "(future (println \"e\"))" "(println \"e\")" "(-print-config)" "(reset)" "(go)" "(reset)" "(go)" "(refresh)" "(stop)" "(reset)" "(refresh)" "(reset)" "(refresh)" "(reset)" "*e" "(reset)" "(refresh)" "(reset)" "(go)" "(use 'figwheel-sidecar.repl-api)
+("(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(reset)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(-print-config)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(-print-config)" "(node.app/backup-once (:app system))" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(reset)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(-print-config)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(reset)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(reset)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(node.backend/request! (:backend system) :get \"http://backend.staging.proton.red.designed.ly/\" {})" "(node.backend/request! (:backend system) :get \"/\" {})" "(-> system :backend node.backend/logged-in?)" "(-> system :backend logged-in?)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(-assoc-in-config! [:database] {:type :firebird })" "(go)" "(:app-state system)" "(-assoc-in-config! [:database] {:type :firebird })" "(-assoc-in-config [:database] {:type :firebird })" "(-print-config)" "(node.app/backup-once (:app system))" "(reset)" "(-force-setup-wizard!)" "(-print-config)" "(reset)" "(go)" "(dotimes [n 100]
+    (future
+      (let [path (str \"/tmp/\" n)]
+        (println path)
+        (with-open [out-stream (clojure.java.io/output-stream path)]
+          (.write out-stream (taoensso.nippy/freeze
+                               (take 2500 (repeat \"x\"))
+                               {:password [:salted \"password\"]})))
+        (with-open [in (clojure.java.io/input-stream path)
+                    out (java.io.ByteArrayOutputStream.)]
+          (clojure.java.io/copy in out)
+          (taoensso.nippy/thaw (.toByteArray out) {:password [:salted \"password\"]})))))" "(dotimes [n 100]
+    (future
+      (let [path (str \"/tmp/\" n)]
+        (println path)
+        (with-open [out-stream (io/output-stream path)]
+          (.write out-stream (taoensso.nippy/freeze
+                               (take 2500 (repeat \"x\"))
+                               {:password [:salted \"password\"]})))
+        (with-open [in (clojure.java.io/input-stream path)
+                    out (java.io.ByteArrayOutputStream.)]
+          (clojure.java.io/copy in out)
+          (taoensso.nippy/thaw (.toByteArray out) {:password [:salted \"password\"]})))))" "(require '[clojure.java.io :as io])" "(dotimes [n 100]
+    (future
+      (let [path (str \"/tmp/\" n)]
+        (println path)
+        (with-open [out-stream (io/output-stream path)]
+          (.write out-stream (taoensso.nippy/freeze
+                               (take 2500 (repeat \"x\"))
+                               {:password [:salted \"password\"]})))
+        (with-open [in (clojure.java.io/input-stream path)
+                    out (java.io.ByteArrayOutputStream.)]
+          (clojure.java.io/copy in out)
+          (taoensso.nippy/thaw (.toByteArray out) {:password [:salted \"password\"]})))))" "(start)" "(stop)" "(reset)" "(in-ns 'user)" "(backup-once user/system)" "(in-ns 'node.app)" "(future (println \"e\"))" "(println \"e\")" "(-print-config)" "(reset)" "(go)" "(reset)" "(go)" "(refresh)" "(stop)" "(reset)" "(refresh)" "(reset)" "(refresh)" "(reset)" "*e" "(reset)" "(refresh)" "(reset)" "(go)" "(use 'figwheel-sidecar.repl-api)
 (cljs-repl)
 " "(-print-config)" "(go)" "(-print-config)" "(restart)" "(stop)" "(refresh)" "(restart)" "(go)")
