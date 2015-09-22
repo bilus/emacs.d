@@ -1,0 +1,98 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/" . "node/")
+ ("/Users/martinb/.emacs.d/" . "customizations/")
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/dly/" . "core/")
+ ("/Users/martinb/dev/clojure_apps/" . "Logoot/")
+ ("/Users/martinb/" . ".emacs.d/")
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/" . "dly/")
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/" . "src/")
+ ("/Users/martinb/dev/" . "clojure_apps/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/martinb/.lein/"
+ "/Users/martinb/.emacs.d/"
+ "/Users/martinb/.emacs.d/customizations/"
+ "/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/"
+ "/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/"
+ "/Users/martinb/dev/clojure_apps/proton/"
+ "/Users/martinb/dev/clojure_apps/proton/node/"
+ "/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/"
+ "/Users/martinb/dev/clojure_apps/Logoot/logoot/src/dly/core/"
+ "/Users/martinb/dev/clojure_apps/Logoot/logoot/"
+ "/Users/martinb/dev/clojure_apps/Logoot/logoot/src/logoot/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "profiles.clj"
+ "init.el"
+ "editing.el"
+ "pipes.clj"
+ "admin_dashboard.cljs"
+ ".gitignore"
+ "activation.cljs"
+ "README.md"
+ "project.clj"
+ "user.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/" (22016 10060 0 0) "user.clj" "dev_helpers.clj" "../" "./")
+
+ ("/Users/martinb/.lein/" (22013 42770 0 0) "self-installs/" "repl-history" "profiles.clj" "leinrc" "credentials.clj.gpg" "credentials.clj" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/" (22016 9052 0 0) "test/" "target/" "system.properties" "src/" "scripts/" "resources/" "README.md" "README.enc" "project.clj" "profiles.clj" "Procfile" "oracle-inventory.xml" "node.jar" "node.iml" "logs/" "LICENSE" "launch4j.xml" "figwheel_server.log" "env/" "config.edn~" "config.edn" "backup.zip" "alice.sec.asc" "alice.pub.asc" ".repl/" ".nrepl-port" ".lein-repl-history" ".lein-failures" ".lein-env" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/.emacs.d/" (22015 57706 0 0) "themes/" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/" (22015 60652 0 0) "wizard.cljs" "utils.cljs" "upload.cljs" "tabs.cljs" "shared_forms.cljs" "setup_wizard.cljs" "server_status_view.cljs" "server_status.cljs" "server_api.cljs" "rpc.clj" "routes.cljs" "restore_wizard.cljs" "om_helpers.cljs" "initial_wizard.cljs" "html.cljs" "hint_view.cljs" "databases/" "core.cljs" "context_help.cljs" "admin_dashboard.cljs" "activation.cljs" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/" (21882 52859 0 0) "oracle/" "node/" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/" (21819 64080 0 0) "cljs/" "clj/" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/" (21819 64080 0 0) "prod/" "dev/" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/" (22015 56993 0 0) "xform.clj" "web_server.clj" "upload.clj" "timeout.clj" "system.clj" "status_pusher.clj" "status_logger.clj" "status_broadcaster.clj" "server.clj" "scheduler.clj" "safety_copy.clj" "remote_backup_storage.clj" "recovery.clj" "portability.clj" "pipes.clj" "pipeline.clj" "persistence.clj" "packaging.clj" "os.clj" "logging.clj" "log_pusher.clj" "job_runner.clj" "job.clj" "io_helpers.clj" "humanize.clj" "exceptions.clj" "dump/" "download.clj" "cli_handler.clj" "cli.clj" "backup.clj" "backend.clj" "async.clj" "app_state.clj" "app.clj" "api/" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/" (21819 64080 0 0) "node/" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/" (21819 64080 0 0) "cljs/" "clj/" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/proton/" (22010 45580 0 0) "XYNTServiceProject/" "test/" "spike-firebird/" "shared/" "security/" "riemann.log.2015-09-16.gz" "riemann.log" "provision/" "print-args/" "node/" "Neuboard Theme - WB0M35410.zip" "launch4j/" "keygen/" "ISS/" "health/" "doc/" "deployment/" "Bat_To_Exe_Converter/" "backend/" "auth/" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/.emacs.d/customizations/" (22015 12793 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/" (22015 11069 0 0) "test/" "target/" "src/" "resources/" "repl/" "README.md" "project.clj" "pom.xml.asc" "pom.xml" "out/" "Logoot.pdf" "logoot.iml" "LICENSE" "doc/" "CPU-20140902T231138.cpuprofile" "CPU-20140901T163718.cpuprofile" "cljs.jar" ".nrepl-port" ".lein-repl-history" ".lein-failures" ".lein-env" ".idea/" ".gitignore" ".git/" ".DS_Store" ".cljs_rhino_repl/" "../" "./")
+
+ ("/Users/martinb/.emacs.d/elpa/" (22015 10294 0 0) "with-editor-20150910.1352/" "tagedit-20150727.224/" "spinner-1.4/" "smex-20150822.1146/" "s-20150909.608/" "rainbow-delimiters-20150320.17/" "queue-0.1.1/" "projectile-20150911.844/" "pkg-info-20150517.443/" "paredit-20150217.713/" "magit-popup-20150903.1204/" "magit-20150918.541/" "ido-ubiquitous-20150914.1003/" "ido-completing-read+-20150630.926/" "git-commit-20150903.1204/" "expand-region-20150902.558/" "exec-path-from-shell-20150801.104/" "epl-20150517.433/" "dash-20150829.433/" "clojure-mode-extra-font-locking-20150110.505/" "clojure-mode-20150910.1321/" "cider-20150919.2219/" "async-20150909.2257/" "archives/" "../" "./")
+
+ ("/Users/martinb/.emacs.d/elpa/expand-region-20150902.558/" (22015 10301 0 0) "web-mode-expansions.elc" "web-mode-expansions.el" "the-org-mode-expansions.elc" "the-org-mode-expansions.el" "text-mode-expansions.elc" "text-mode-expansions.el" "subword-mode-expansions.elc" "subword-mode-expansions.el" "sml-mode-expansions.elc" "sml-mode-expansions.el" "ruby-mode-expansions.elc" "ruby-mode-expansions.el" "python-mode-expansions.elc" "python-mode-expansions.el" "python-el-fgallina-expansions.elc" "python-el-fgallina-expansions.el" "python-el-expansions.elc" "python-el-expansions.el" "octave-expansions.elc" "octave-expansions.el" "nxml-mode-expansions.elc" "nxml-mode-expansions.el" "latex-mode-expansions.elc" "latex-mode-expansions.el" "jsp-expansions.elc" "jsp-expansions.el" "js2-mode-expansions.elc" "js2-mode-expansions.el" "js-mode-expansions.elc" "js-mode-expansions.el" "html-mode-expansions.elc" "html-mode-expansions.el" "feature-mode-expansions.elc" "feature-mode-expansions.el" "expand-region.elc" "expand-region.el" "expand-region-pkg.el" "expand-region-custom.elc" "expand-region-custom.el" "expand-region-core.elc" "expand-region-core.el" "expand-region-autoloads.el~" "expand-region-autoloads.el" "erlang-mode-expansions.elc" "erlang-mode-expansions.el" "er-basic-expansions.elc" "er-basic-expansions.el" "enh-ruby-mode-expansions.elc" "enh-ruby-mode-expansions.el" "css-mode-expansions.elc" "css-mode-expansions.el" "cperl-mode-expansions.elc" "cperl-mode-expansions.el" "clojure-mode-expansions.elc" "clojure-mode-expansions.el" "cc-mode-expansions.elc" "cc-mode-expansions.el" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/dly/core/" (22014 60812 0 0) "rand.cljc" "int.cljc" "floats.cljc" "examples.cljc" "debug.cljc" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/dly/" (21660 44681 0 0) "core/" ".DS_Store" "../" "./")
+
+ ("/Users/" (21789 2460 0 0) "Shared/" "martinb/" "Guest/" "Deleted Users/" "_mongo/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/logoot/" (22013 44217 0 0) "utils.cljc" "pid.cljc" "merge.cljc" "edn.cljc" "editors/" "document.cljc" "core.clj" "clock.cljc" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/" (21996 14565 0 0) "logoot/" "dly/" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/Logoot/" (21666 46178 0 0) "om-event-bus/" "logoot_hoplon_castra/" "logoot_hoplon/" "logoot/" "idealist.old/" "idealist/" "hoplon_castra_leiningen/" "chestnut-uberjar-test/" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/dev/clojure_apps/" (22000 15843 0 0) "test.cljx" "test.clj" "Subscription Status.png" "Subscription Status.bmml" "sicp/" "reforms/" "proton.broken/" "proton-billing/" "proton/" "om-forms/" "marginalia.orig/" "marginalia/" "Logoot/" "logic-programming/" "lein-release/" "lein-marginalia/" "helpdesk/" "decl-ui/" "crypto/" "continuations/" "clojure-humanize/" "chrum-ojdbc/" "bilus-ojdbc/" "bilus-marginalia/" "bilus-jdbc.obsolete/" "ankha/" ".DS_Store" "../" "./")
+
+ ("/Users/martinb/dev/" (22011 14196 0 0) "WeBuildThisCity/" "temp/" "spikes/" "sort_by_date/" "SecurityIcon/" "Screenshots/" "rspec-cramp/" "Resume/" "reg/" "redis-bitops/" "rails_apps/" "R/" "Pythia/" "Prancall/" "powerline-shell/" "phonosdk-0.3/" "motivoo/" "Mayend/" "Main Flow v4.bmml" "machine_learning/" "Link to Ruby Gems" "Library/" "ld64-133.3/" "large_files.txt" "idealist/" "horus.zip" "horus-game/" "horus copy/" "horus/" "haskell/" "gitstats/" "git-repos/" "gappsprovisioning/" "FUStarter/" "Foghorn/" "erlang/" "EnglishPysi/" "Emendi/" "EgertonStyle/" "docam2/" "docam-1043/" "docam/" "Designedly/" "Criticue/" "cramp_app2/" "cramp_app/" "clojure_apps/" "Bacchus/" "Arduino/" "altruist_spike.rb" "ABS/" ".svn/" ".DS_Store" "!Important/" "../" "./")
+
+ ("/Users/martinb/" (22014 58161 0 0) "wget-1.12/" "VirtualBox VMs/" "Typewriter/" "Sites/" "redis-2.6.7/" "Qt/" "Public/" "plik-ratunkowy-20150525110858460.prcv" "plik-ratunkowy-2015052016185242.prcv" "plik-ratunkowy-20150520161647652.prcv" "plik-ratunkowy-20150520161430110.prcv" "plik-ratunkowy-20150520161400266.prcv" "plik-ratunkowy-20150520140416514.prcv" "plik-ratunkowy-20150515131629673.prcv" "plik-ratunkowy-20150515131544651.prcv" "plik-ratunkowy-20150515131141300.prcv" "plik-ratunkowy-20150515130011850.prcv" "plik-ratunkowy-2015051511130122.prcv" "plik-ratunkowy-20150429134026.prcv" "plik-ratunkowy-20150427131905.prcv" "plik-ratunkowy-20150425215217.prcv" "plik-ratunkowy-20150424213717.prcv" "plik-ratunkowy-20150424175520.prcv" "plik-ratunkowy-20150424104303.prcv" "plik-ratunkowy-20150423183900.prcv" "plik-ratunkowy-20150423100154.prcv" "plik-ratunkowy-20150423100004.prcv" "plik-ratunkowy-20150414140747.prcv" "plik-ratunkowy-20150414124347.prcv" "plik-ratunkowy-20150413141242.prcv" "plik-ratunkowy-20150413140733.prcv" "plik-ratunkowy-20150413140457.prcv" "plik-ratunkowy-20150413135615.prcv" "plik-ratunkowy-20150412202525.prcv" "plik-ratunkowy-20150412201326.prcv" "plik-ratunkowy-20150412201226.prcv" "plik-ratunkowy-20150412200451.prcv" "plik-ratunkowy-20150412200311.prcv" "plik-ratunkowy-20150412195806.prcv" "plik-ratunkowy-20150403193513.prcv" "plik-ratunkowy-20150330150352.rcv" "plik-ratunkowy-20150323153318.prcv" "plik-ratunkowy-20150320180707.prcv" "plik-ratunkowy-20150320171633.prcv" "plik-ratunkowy-20150320121421.prcv" "plik-ratunkowy-20150319182237.prcv" "plik-ratunkowy-20150319152524.prcv" "plik-ratunkowy-20150319151832.prcv" "plik-ratunkowy-20150319141344.prcv" "plik-ratunkowy-20150319141214.prcv" "plik-ratunkowy-20150319141027.prcv" "plik-ratunkowy-20150319140832.prcv" "plik-ratunkowy-20150318125553.rcv" "plik-ratunkowy-20150318122633.rcv" "plik-ratunkowy-20150313165604.rcv" "plik-ratunkowy-20150313164831.rcv" "plik-ratunkowy-20150313164510.rcv" "plik-ratunkowy-20150313164417.rcv" "plik-ratunkowy-20150313164338.rcv" "plik-ratunkowy-20150313163622.rcv" "plik-ratunkowy-20150313163611.rcv" "plik-ratunkowy-20150313163522.rcv" "plik-ratunkowy-20150313163353.rcv" "plik-ratunkowy-20150313115904.rcv" "plik-ratunkowy-20150313114940.rcv" "plik-ratunkowy-20150313114733.rcv" "plik-ratunkowy-20150313114632.rcv" "plik-ratunkowy-20150313114520.rcv" "plik-ratunkowy-20150313114138.rcv" "plik-ratunkowy-20150311154554.rcv" "plik-ratunkowy-20150311121731.rcv" "plik-ratunkowy-20150311105854.rcv" "plik-ratunkowy-20150310130341.rcv" "plik-ratunkowy-20150305134917.rcv" "plik-ratunkowy-20150305124810.rcv" "plik-ratunkowy-20150305124730.rcv" "plik-ratunkowy-20150304231634.rcv" "plik-ratunkowy-20150304231542.rcv" "plik-ratunkowy-20150304231221.rcv" "plik-ratunkowy-20150304231116.rcv" "plik-ratunkowy-20150304230937.rcv" "plik-ratunkowy-20150304230325.rcv" "plik-ratunkowy-20150304230210.rcv" "plik-ratunkowy-20150304230026.rcv" "plik-ratunkowy-20150304225909.rcv" "plik-ratunkowy-20150304225402.rcv" "plik-ratunkowy-20150304224810.rcv" "plik-ratunkowy-20150304174214.rcv" "plik-ratunkowy-20150228203954.rcv" "plik-ratunkowy-20150228175830.rcv" "plik-ratunkowy-20150228175739.rcv" "plik-ratunkowy-20150225233859.rcv" "plik-ratunkowy-20150225131251.rcv" "plik-ratunkowy-20150224214824.rcv" "plik-ratunkowy-20150224151443.rcv" "plik-ratunkowy-20150224144900.rcv" "plik-ratunkowy-20150224131729.rcv" "plik-ratunkowy-20150222221528.rcv" "plik-ratunkowy-20150219174044.rcv" "plik-ratunkowy-20150216112426.rcv" "plik-ratunkowy-20150213152557.rcv" "plik-ratunkowy-20150213150228.rcv" "plik-ratunkowy-20150213150100.rcv" "plik-ratunkowy-20150213145813.rcv" "plik-ratunkowy-20150213144652.rcv" "plik-ratunkowy-20150213143705.rcv" "plik-ratunkowy-20150213143247.rcv" "plik-ratunkowy-20150213143128.rcv" "plik-ratunkowy-20150213140839.rcv" "plik-ratunkowy-20150211162908.rcv" "plik-ratunkowy-20150211153815.rcv" "plik-ratunkowy-20150211153630.rcv" "plik-ratunkowy-20150210174440.rcv" "plik-ratunkowy-20150210174411.rcv" "plik-ratunkowy-20150210173755.rcv" "plik-ratunkowy-20150206182313.rcv" "plik-ratunkowy-20150203225929.rcv" "plik-ratunkowy-20150203225558.rcv" "plik-ratunkowy-20150203225250.rcv" "plik-ratunkowy-20150203225056.rcv" "plik-ratunkowy-20150203224854.rcv" "plik-ratunkowy-20150203224654.rcv" "plik-ratunkowy-20150203224357.rcv" "plik-ratunkowy-20150203224308.rcv" "plik-ratunkowy-20150203224236.rcv" "plik-ratunkowy-20150203223933.rcv" "plik-ratunkowy-20150203223853.rcv" "plik-ratunkowy-20150203223430.rcv" "plik-ratunkowy-20150203222743.rcv" "plik-ratunkowy-20150203222537.rcv" "plik-ratunkowy-20150203222312.rcv" "plik-ratunkowy-20150203221936.rcv" "plik-ratunkowy-20150203221900.rcv" "plik-ratunkowy-20150203221241.rcv" "plik-ratunkowy-20150203215217.rcv" "plik-ratunkowy-20150203215014.rcv" "plik-ratunkowy-20150203214622.rcv" "plik-ratunkowy-20150203212739.rcv" "plik-ratunkowy-20150203163631.rcv" "plik-ratunkowy-20150203154607.rcv" "plik-ratunkowy-20150203142255.rcv" "plik-ratunkowy-20150203142225.rcv" "plik-ratunkowy-20150203141844.rcv" "plik-ratunkowy-20150203131858.rcv" "plik-ratunkowy-20150203130936.rcv" "plik-ratunkowy-20150203094628.rcv" "plik-ratunkowy-20150203094443.rcv" "plik-ratunkowy-20150202215705.rcv" "plik-ratunkowy-20150202201051.rcv" "plik-ratunkowy-20150202200957.rcv" "plik-ratunkowy-20150202200506.rcv" "plik-ratunkowy-20150202200138.rcv" "plik-ratunkowy-20150202195925.rcv" "plik-ratunkowy-20150202195912.rcv" "plik-ratunkowy-20150202194459.rcv" "plik-ratunkowy-20150202190211.rcv" "plik-ratunkowy-20150202190157.rcv" "plik-ratunkowy-20150202190124.rcv" "plik-ratunkowy-20150202185543.rcv" "plik-ratunkowy-20150202184801.rcv" "plik-ratunkowy-20150202164755.rcv" "plik-ratunkowy-20150202160715.rcv" "plik-ratunkowy-20150202121440.rcv" "plik-ratunkowy-20150202115637.rcv" "plik-ratunkowy-20150202115518.rcv" "plik-ratunkowy-20150202102341.rcv" "plik-ratunkowy-20150201235428.rcv" "plik-ratunkowy-20150201234505.rcv" "plik-ratunkowy-20150201212113.rcv" "plik-ratunkowy-20150201212033.rcv" "plik-ratunkowy-20150201211730.rcv" "plik-ratunkowy-20150201211515.rcv" "plik-ratunkowy-20150201211332.rcv" "plik-ratunkowy-20150201211125.rcv" "plik-ratunkowy-20150201211117.rcv" "plik-ratunkowy-20150201201655.rcv" "plik-ratunkowy-20150130230613.rcv" "plik-ratunkowy-20150130195533.rcv" "plik-ratunkowy-20150130184340.rcv" "plik-ratunkowy-20150130184305.rcv" "plik-ratunkowy-20150130171616.rcv" "plik-ratunkowy-20150130171426.rcv" "plik-ratunkowy-20150130163432.rcv" "Pictures/" "oradiag_martinb/" "Music/" "Movies/" "Library/" "lein" "kopia-bezp-20150424105949.pbak" "kopia-bezp-20150423111709.pbak" "kopia-bezp-20150423104231.pbak" "kopia-bezp-20150422172914.pbak" "kopia-bezp-20150422172816.pbak" "kopia-bezp-20150422172030.pbak" "kopia-bezp-20150422171846.pbak" "kopia-bezp-20150421131713.pbak" "kopia-bezp-20150421130029.pbak" "kopia-bezp-20150421125848.pbak" "kopia-bezp-20150421104800.pbak" "kopia-bezp-20150319172010.pbak" "kopia-bezp-20150319161759.pbak" "kopia-bezp-20150319152630.pbak" "kopia-20150401164651.proton.red" "kopia-20150401164434.proton.red" "kopia-20150401164333.proton.red" "kopia-20150401161727.proton.red" "kopia-20150319151937@.pbak" "kopia-20150319151215@.pbak" "kopia-20150318133333.proton.red" "kopia-20150318133305.proton.red" "kopia-20150318132458.proton.red" "kopia-20150318131928.proton.red" "kopia-20150318131856.proton.red" "kopia-20150318131125.proton.red" "kopia-20150318131016.proton.red" "kopia-20150318130923.proton.red" "kopia-20150318124323.proton.red" "kopia-20150318122705.proton.red" "kopia-20150318122611.proton.red" "kopia-20150318122405.proton.red" "kopia-20150318122213.proton.red" "kopia-20150318121948.proton.red" "kopia-20150318121759.proton.red" "kopia-20150318121609.proton.red" "kopia-20150318121454.proton.red" "kopia-20150318120857.proton.red" "kopia-20150318120125.proton.red" "kopia-20150318120024.proton.red" "kopia-20150317181037.proton.red" "kopia-20150317181005.proton.red" "kopia-20150317112507.proton.red" "kopia-20150316181634.proton.red" "kopia-20150313162019.proton.red" "kopia-20150313152941.proton.red" "espeak-data/" "dump.rdb" "Dropbox/" "Downloads/" "Documents/" "dev/" "Desktop/" "bin/" "Applications (Parallels)/" "Applications/" ".zshrc" ".yeoman/" ".Xcode/" ".Xauthority" ".wgetrc" ".viminfo" ".vagrant.d/" ".Trash/" ".thinreports/" ".subversion/" ".ssh/" ".sqlite_history" ".spumux/" ".slideshow/" ".sh_history" ".scala_history" ".sbt/" ".rvmrc" ".rvm.bak/" ".rvm/" ".RubyMine70/" ".rstudio-desktop/" ".rnd" ".ri/" ".Rhistory" ".rediscli_history" ".rdzqjmnrc" ".rdebug_hist" ".RData" ".psql_history" ".pry_history" ".proton.red/" ".profile.macports-saved_2010-07-26_at_18:47:32" ".profile" ".planck_history" ".parallels/" ".papertrail.yml" ".pagekite.rc" ".openshift/" ".odbc.ini" ".octave_hist" ".npm/" ".node-gyp/" ".netrc" ".nbprofiler/" ".mplayer/" ".mongorc.js" ".mix/" ".m2/" ".local/" ".lesshst" ".leindrip/" ".lein_history" ".lein/" ".keystore" ".juju/" ".java_history" ".ivy2/" ".irb_history" ".irb-history" ".inputrc" ".inkscape-etc/" ".immutant/" ".IdeaIC14/" ".heroku/" ".guard_history" ".gnupg/" ".gnome2/" ".gnaural/" ".gitk" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".flexlmrc" ".filezilla/" ".erlang_config/" ".emacs.d/" ".ec2/" ".ebbeuxan" ".DS_Store" ".dropbox/" ".drip/" ".dbshell" ".cv/" ".cups/" ".crash_report_preview" ".crash_report_frames" ".crash_report_checksum" ".config/" ".cocoapods/" ".clojure-objc/" ".CFUserTextEncoding" ".CF89AA64" ".cf/" ".cake/" ".cache/" ".cabal/" ".byebug_hist" ".bundler/" ".bower/" ".boot/" ".berkshelf/" ".bashrc" ".bash_profile.macports-saved_2013-01-31_at_16:12:41" ".bash_profile.macports-saved_2011-08-23_at_09:47:38" ".bash_profile" ".bash_history" ".aws/" ".android/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

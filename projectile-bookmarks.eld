@@ -1,0 +1,1 @@
+("~/dev/clojure_apps/proton/node/" "~/dev/clojure_apps/proton/backend/" "~/dev/clojure_apps/proton/" "/usr/local/" "~/dev/clojure_apps/Logoot/logoot/")

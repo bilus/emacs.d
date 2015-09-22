@@ -1,0 +1,3 @@
+{:provided {:env {:auth-url "http://auth.staging.proton.red.designed.ly"
+                  :backend-url "http://backend.staging.proton.red.designed.ly"
+                  :enable-download-config true}}}

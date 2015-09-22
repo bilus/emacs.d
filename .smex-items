@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ load-file
+ cider-connect
+ enable-paredit-mode
+ newline-and-indent
+ rgrep
+ expand-region-abbrevs
+ cider-jack-in
+)
+
+;; ----- smex-data -----
+(
+ (cider-jack-in . 2)
+ (paredit-mode . 1)
+ (rgrep . 4)
+ (expand-region-abbrevs . 1)
+ (newline-and-indent . 1)
+ (load-file . 5)
+ (enable-paredit-mode . 2)
+ (cider-connect . 2)
+)

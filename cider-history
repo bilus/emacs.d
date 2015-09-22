@@ -1,0 +1,7 @@
+;; -*- coding: utf-8-unix -*-
+;; Automatically written history of CIDER REPL session
+;; Edit at your own risk
+
+("(start)" "(stop)" "(reset)" "(in-ns 'user)" "(backup-once user/system)" "(in-ns 'node.app)" "(future (println \"e\"))" "(println \"e\")" "(-print-config)" "(reset)" "(go)" "(reset)" "(go)" "(refresh)" "(stop)" "(reset)" "(refresh)" "(reset)" "(refresh)" "(reset)" "*e" "(reset)" "(refresh)" "(reset)" "(go)" "(use 'figwheel-sidecar.repl-api)
+(cljs-repl)
+" "(-print-config)" "(go)" "(-print-config)" "(restart)" "(stop)" "(refresh)" "(restart)" "(go)")

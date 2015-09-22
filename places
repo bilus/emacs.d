@@ -1,0 +1,63 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/martinb/dev/clojure_apps/proton/node/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/env"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/env/dev"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/user.clj"))
+ ("/Users/martinb/.emacs.d/snippets/comment_header" . 183)
+ ("/Users/martinb/dev/clojure_apps/proton/node/project.clj" . 3303)
+ ("/Users/martinb/dev/clojure_apps/proton/node/README.md" . 233)
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/user.clj" . 1312)
+ ("/Users/martinb/.emacs.d/customizations/setup-clojure.el" . 2802)
+ ("/Users/martinb/.emacs.d/customizations/setup-flycheck.el" . 1533)
+ ("/Users/martinb/.lein/profiles.clj" . 311)
+ ("/Users/martinb/.emacs.d/init.el" . 521)
+ ("/Users/martinb/.emacs.d/url/cookies" . 231)
+ ("/Users/martinb/dev/clojure_apps/proton/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj/node"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/app.clj"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/app.clj" . 8695)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_api.cljs" . 773)
+ ("/Users/martinb/dev/clojure_apps/proton/node/profiles.clj" . 203)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/core.cljs" . 9285)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/web_server.clj" . 3503)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/job.clj" . 763)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/api/subscriptions.clj" . 1890)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/pipes.clj" . 2813)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/portability.clj" . 554)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/activation.cljs" . 901)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/om_helpers.cljs" . 1553)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/admin_dashboard.cljs" . 1207)
+ ("/Users/martinb/dev/clojure_apps/proton/node/resources/index.html" . 1400)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/packaging.clj" . 1770)
+ ("/Users/martinb/dev/clojure_apps/proton/node/test/clj/node/app_test.clj" . 3793)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/recovery.clj" . 1104)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/io_helpers.clj" . 4101)
+ ("/Users/martinb/dev/clojure_apps/proton/auth/test/auth/core_test.clj" . 4778)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/setup_wizard.cljs" . 7509)
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/dev_helpers.clj" . 513)
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/cljs/node/env.cljs" . 34)
+ ("/Users/martinb/.emacs.d/customizations/editing.el" . 3128)
+ ("/Users/martinb/dev/clojure_apps/proton/.gitignore" . 2793)
+ ("/Users/martinb/dev/clojure_apps/proton/deployment/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/deployment/hook_deploy_node.rb"))
+ ("/Users/martinb/dev/clojure_apps/proton/deployment/hook_deploy_node.rb" . 850)
+ ("/Users/martinb/.emacs.d/"
+  (dired-filename . "/Users/martinb/.emacs.d/elpa"))
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/dly/core/rand.cljc" . 621)
+ ("/Users/martinb/.emacs.d/customizations/navigation.el" . 205)
+ ("/Users/martinb/.emacs.d/customizations/"
+  (dired-filename . "/Users/martinb/.emacs.d/customizations/setup-clojure.el"))
+ ("/Users/martinb/.emacs.d/elpa/expand-region-20150902.558/expand-region-core.el" . 2)
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/logoot/pid.cljc" . 3940)
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/dly/core/debug.cljc" . 378)
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/project.clj" . 1014)
+ ("/Users/martinb/dev/clojure_apps/Logoot/logoot/src/logoot/clock.cljc" . 492))
