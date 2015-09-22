@@ -1,7 +1,0 @@
-{:user {:plugins [[lein-try "0.4.3"] 
-                  [codox "0.8.12"] 
-                  [lein-ancient "0.6.7" :exclusions [org.clojure/clojure]]
-                  [refactor-nrepl "1.2.0-SNAPSHOT"]
-                  [cider/cider-nrepl "0.10.0-SNAPSHOT"]]}
-:auth {:repository-auth {#"clojars" {:username "bilus"
-                                      :password "leonardo"}}}}
