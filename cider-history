@@ -2,7 +2,10 @@
 ;; Automatically written history of CIDER REPL session
 ;; Edit at your own risk
 
-("(-assoc-in-config! [:database] {:type              :firebird
+("(stop)" "(reset)" "(node.app/backup-once (:app system))" "(reset)" "(some #{1 2} [1])" "(some #{1 2} [5])" "(reset)" "(node.app/backup-once (:app system))" "(-print-config)" "(-assoc-in-config! [:tools]  {:isql-path \"/Library/Frameworks/Firebird.framework/Resources/bin/isql\", :gbak-path \"/Library/Frameworks/Firebird.framework/Resources/bin/gbak\"})" "(node.dump.core/detect-tools {:type :firebird})" "(-print-config)" "(-assoc-in-config! [:database] {:type              :firebird
+                :connection-string \"/tmp/e\"
+                :login             \"SYSDBA\"
+                :password          \"masterkey\"})" "(node.app/backup-once (:app system))" "(go)" "(-assoc-in-config! [:database] {:type              :firebird
                 :connection-string \"/tmp/e\"
                 :login             \"SYSDBA\"
                 :password          \"masterkey\"})" "(reset)" "(-assoc-in-config! [:database] {:type              :firebird

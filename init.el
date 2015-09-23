@@ -77,6 +77,9 @@
     ;; colorful parenthesis matching
     rainbow-delimiters
 
+    ;; highlight word under point
+    idle-highlight-mode
+
     ;; edit html tags like sexps
     tagedit
 
@@ -200,3 +203,6 @@
 ;; Autocomplete.
 (global-company-mode)
 (global-set-key (kbd "TAB") #'company-indent-or-complete-common) ;; Use TAB for indenting AND for autocompletion.
+
+;; Highlight word usages.
+(idle-highlight-mode t)

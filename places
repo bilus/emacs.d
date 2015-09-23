@@ -1,9 +1,11 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/martinb/.emacs.d/"
+(("/Users/martinb/.emacs.d/cider-history" . 112)
+ ("/Users/martinb/.emacs.d/"
   (dired-filename . "/Users/martinb/.emacs.d/init.el"))
+ ("/Users/martinb/.emacs.d/init.el" . 5937)
+ ("/Users/martinb/.emacs.d/ido.last" . 19377)
  ("/Users/martinb/.emacs.d/customizations/editing.el" . 385)
  ("/Users/martinb/.emacs.d/customizations/setup-clojure.el" . 2760)
- ("/Users/martinb/.emacs.d/init.el" . 5714)
  ("/Users/martinb/.emacs.d/backups/!Users!martinb!.emacs.d!customizations!setup-clojure.el~" . 2760)
  ("/Users/martinb/.lein/profiles.clj" . 311)
  ("/Users/martinb/.emacs.d/customizations/setup-flycheck.el" . 1382)

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ idle-highlight-mode
  load-file
  rgrep
  cider-connect
  enable-paredit-mode
  newline-and-indent
  expand-region-abbrevs
- cider-jack-in
 )
 
 ;; ----- smex-data -----
@@ -17,8 +17,9 @@
  (rgrep . 7)
  (expand-region-abbrevs . 1)
  (newline-and-indent . 1)
- (load-file . 11)
+ (load-file . 12)
  (enable-paredit-mode . 2)
  (cider-connect . 2)
  (cider-describe-nrepl-session . 1)
+ (idle-highlight-mode . 2)
 )
