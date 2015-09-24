@@ -5,8 +5,10 @@
       '(
         paredit-open-square
         paredit-splice-sexp
+        yas-expand
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        paredit-wrap-round
         ))

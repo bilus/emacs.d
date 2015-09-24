@@ -25,9 +25,12 @@
             (define-clojure-indent (fact 1))
             (define-clojure-indent (facts 1))))
 
-;; Auto-indent on ENTER
-;; (add-hook 'clojure-mode-hook 
-           ;; '(lambda () (local-set-key (kbd “RET”) ‘newline-and-indent)))
+;; Paredit keys
+(add-hook 'clojure-mode-hook 
+          (lambda ()
+             (local-set-key (kbd "M-[") 'paredit-wrap-square)
+             (local-set-key (kbd "M-{") 'paredit-wrap-curly)
+             (local-set-key (kbd "M-<") 'paredit-wrap-angled)))
 
 ;;;;
 ;; Cider

@@ -1,3 +1,6 @@
+;; Troubleshooting customization errors.
+;(setq debug-on-error t)
+
 ;;;;
 ;; Packages
 ;;;;
@@ -53,6 +56,9 @@
     cider-eval-sexp-fu
     clj-refactor
 
+    ;; formatting of let-like forms
+    align-cljlet
+
     ;; Syntax checking
 ;    flycheck
 ;    flycheck-clojure
@@ -71,6 +77,13 @@
     ;; http://www.emacswiki.org/emacs/Smex
     smex
 
+    ;; symbol search
+    smartscan
+    
+    ;; Searching project files.
+    find-file-in-project
+    swiper
+
     ;; project navigation
     projectile
 
@@ -84,7 +97,13 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+
+    ;; better interface for grep
+    wgrep
+
+    ;; clipboard integration
+    clipmon))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -181,8 +200,11 @@
       '("~/.emacs.d/snippets"                 ;; personal snippets
 ))
 
-;; Treat selection in a more standard way (e.g. typing kills it).
+;; Treat selection in a more standard way (e.g. typing kills it) even in paredit.
 (delete-selection-mode 1)
+(put 'paredit-forward-delete 'delete-selection 'supersede)
+(put 'paredit-backward-delete 'delete-selection 'supersede)
+(put 'paredit-newline 'delete-selection t)
 
 ;; Turn off line wrapping.
 (set-default 'truncate-lines t)
@@ -206,3 +228,28 @@
 
 ;; Highlight word usages.
 (idle-highlight-mode t)
+
+;; Searching using Swiper+Ivy.
+(autoload 'ivy-read "ivy")
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
+(global-set-key "\C-s" 'swiper)
+(global-set-key "\C-r" 'swiper)
+(global-set-key (kbd "C-c C-r") 'ivy-resume)
+(global-set-key [f6] 'ivy-resume)
+
+;; wgrep
+(require 'wgrep)
+
+;; formatting of let-like forms
+(require 'align-cljlet)
+
+;; clipboard integration
+(add-to-list 'after-init-hook 'clipmon-mode-start)
+
+;; enable symbol search https://github.com/mickeynp/smart-scan
+(require 'smartscan)
+
+(add-to-list 'after-init-hook (lambda () (smartscan-mode 1)))
+
+
