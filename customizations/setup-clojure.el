@@ -32,6 +32,13 @@
              (local-set-key (kbd "M-{") 'paredit-wrap-curly)
              (local-set-key (kbd "M-<") 'paredit-wrap-angled)))
 
+;; Figwheel.
+(defun figwheel-repl ()
+  (interactive)
+  (run-clojure "lein figwheel"))
+
+(add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)
+
 ;;;;
 ;; Cider
 ;;;;
@@ -54,6 +61,9 @@
 
 ;; enable paredit in your REPL
 (add-hook 'cider-repl-mode-hook 'paredit-mode)
+
+;; Fix cider-switch-to-relevant-repl-buffer not working for Figwheel/clj
+(setq cider-switch-to-repl-command #'cider-switch-to-default-repl-buffer)
 
 ;; Use clojure mode for other extensions
 (add-to-list 'auto-mode-alist '("\\.edn$" . clojure-mode))

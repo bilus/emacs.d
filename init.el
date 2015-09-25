@@ -56,6 +56,9 @@
     cider-eval-sexp-fu
     clj-refactor
 
+    ;; Basic interaction with a Clojure subprocess
+    inf-clojure
+
     ;; formatting of let-like forms
     align-cljlet
 
@@ -249,7 +252,12 @@
 
 ;; enable symbol search https://github.com/mickeynp/smart-scan
 (require 'smartscan)
-
 (add-to-list 'after-init-hook (lambda () (smartscan-mode 1)))
 
-
+;; Go back to previous buffer.
+(defun switch-to-previous-buffer ()
+  "Switch to previously open buffer.
+Repeated invocations toggle between the two most recently open buffers."
+  (interactive)
+  (switch-to-buffer (other-buffer (current-buffer) 1)))
+(global-set-key (kbd "C-c b") 'switch-to-previous-buffer)
