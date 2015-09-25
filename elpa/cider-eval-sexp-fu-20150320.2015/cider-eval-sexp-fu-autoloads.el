@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("cider-eval-sexp-fu.el") (22016 8878 10445
-;;;;;;  0))
+;;;### (autoloads nil nil ("cider-eval-sexp-fu.el") (22021 50450
+;;;;;;  359568 0))
 
 ;;;***
 

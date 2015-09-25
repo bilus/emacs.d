@@ -1,5 +1,7 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/martinb/dev/clojure_apps/proton/node/"
+(("/Users/martinb/.emacs.d/"
+  (dired-filename . "/Users/martinb/.emacs.d/init.el"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/"
   (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/env"))
  ("/Users/martinb/dev/clojure_apps/proton/node/env/"
   (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/env/dev"))
@@ -52,8 +54,6 @@
  ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/"
   (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/app.clj"))
  ("/Users/martinb/dev/clojure_apps/proton/node/profiles.clj" . 203)
- ("/Users/martinb/.emacs.d/"
-  (dired-filename . "/Users/martinb/.emacs.d/init.el"))
  ("/Users/martinb/.emacs.d/snippets/comment_header" . 183)
  ("/Users/martinb/.emacs.d/customizations/setup-flycheck.el" . 1533)
  ("/Users/martinb/.emacs.d/url/cookies" . 231)

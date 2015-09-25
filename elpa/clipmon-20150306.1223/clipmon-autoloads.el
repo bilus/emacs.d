@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "clipmon" "clipmon.el" (22019 41264 0 0))
+;;;### (autoloads nil "clipmon" "clipmon.el" (22021 50488 0 0))
 ;;; Generated autoloads from clipmon.el
 
 (define-key-after global-map [menu-bar options clipmon-separator] '(menu-item "---") 'highlight-paren-mode)
@@ -59,7 +59,7 @@ default, including the minibuffer history - see function
 
 ;;;***
 
-;;;### (autoloads nil nil ("clipmon-pkg.el") (22019 41264 447610
+;;;### (autoloads nil nil ("clipmon-pkg.el") (22021 50488 485611
 ;;;;;;  0))
 
 ;;;***
