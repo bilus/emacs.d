@@ -12,8 +12,8 @@
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
-;(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
+;(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t) 
 
 ;(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 ;                         ("marmalade" . "http://marmalade-repo.org/packages/")
@@ -35,7 +35,9 @@
 ;; manually with M-x package-install
 ;; Add in your own as you wish:
 (defvar my-packages
-  '(;; makes handling lisp expressions much, much easier
+  '(ag
+    
+    ;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
     paredit
 
@@ -57,7 +59,8 @@
     clj-refactor
 
     ;; Basic interaction with a Clojure subprocess
-    inf-clojure
+    ;; Conflicts with CIDER C-c C-z
+    ;; inf-clojure
 
     ;; formatting of let-like forms
     align-cljlet
@@ -70,10 +73,16 @@
     ;; Semantic region expansion
     expand-region
 
+    ;; HAML syntax highlighting and indentation
+    haml-mode
+
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
     ;; of ido
     ido-ubiquitous
+
+    ;; Allow to go to Java class source.
+    javap 
 
     ;; Enhances M-x to allow easier execution of commands. Provides
     ;; a filterable list of possible commands in the minibuffer
@@ -106,7 +115,15 @@
     wgrep
 
     ;; clipboard integration
-    clipmon))
+    clipmon
+
+    ;; Ruby
+    enh-ruby-mode
+    robe
+    inf-ruby
+    rubocop
+    flycheck
+    ))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -203,6 +220,10 @@
       '("~/.emacs.d/snippets"                 ;; personal snippets
 ))
 
+(when (require 'yasnippet nil 'noerror)
+  (progn
+    (yas/load-directory "~/.emacs.d/snippets")))
+
 ;; Treat selection in a more standard way (e.g. typing kills it) even in paredit.
 (delete-selection-mode 1)
 (put 'paredit-forward-delete 'delete-selection 'supersede)
@@ -229,9 +250,6 @@
 (global-company-mode)
 (global-set-key (kbd "TAB") #'company-indent-or-complete-common) ;; Use TAB for indenting AND for autocompletion.
 
-;; Highlight word usages.
-(idle-highlight-mode t)
-
 ;; Searching using Swiper+Ivy.
 (autoload 'ivy-read "ivy")
 (ivy-mode 1)
@@ -251,8 +269,8 @@
 (add-to-list 'after-init-hook 'clipmon-mode-start)
 
 ;; enable symbol search https://github.com/mickeynp/smart-scan
-(require 'smartscan)
-(add-to-list 'after-init-hook (lambda () (smartscan-mode 1)))
+;; (require 'smartscan)
+;; (add-to-list 'after-init-hook (lambda () (smartscan-mode 1)))
 
 ;; Go back to previous buffer.
 (defun switch-to-previous-buffer ()
@@ -261,3 +279,61 @@ Repeated invocations toggle between the two most recently open buffers."
   (interactive)
   (switch-to-buffer (other-buffer (current-buffer) 1)))
 (global-set-key (kbd "C-c b") 'switch-to-previous-buffer)
+
+(defun setup-progmode ()
+;; Highlight word usages.
+  (idle-highlight-mode t)
+;; Symbol search
+  (smartscan-mode 1))
+
+(add-hook 'prog-mode-hook 'setup-progmode)
+
+;; Start maximized.
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+
+;; Ag results.
+(setq ag-highlight-search t)
+(setq ag-reuse-window 't)
+(setq ag-reuse-buffers 't)
+
+;; Go to java class
+;; (load "~/.emacs.d/vendor/javap-mode.el")
+;; (load "~/.emacs.d/vendor/javad.el")
+;; (require 'javap-mode)
+
+;; (defun javad-find-class (&rest args)
+  ;; (interactive)
+  ;; (if (not (string= ".class" (substring (buffer-file-name) -6 nil)))
+      ;; nil
+    ;; (message "Show class as: [b]ytecode, [d]ecompiled or [i]dentity?")
+    ;; (let ((resp (read-char)))
+      ;; (cond
+       ;; ((= resp 98) (progn (javap-buffer) nil))
+       ;; ((= resp 100) (progn (javad-buffer) nil))
+       ;; (t nil))
+      ;; (let ((buff (current-buffer)))
+        ;; (switch-to-buffer buff)))))
+
+;; (add-hook 'find-file-hook 'javad-find-class)
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; Remove trailing whitespace on save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+(require 'haml-mode)
+(defun haml-reindent ()
+  (haml-reindent-region-by 0))
+(add-hook 'haml-mode-hook
+               (lambda ()
+                 (setq indent-tabs-mode nil)
+                 (define-key haml-mode-map (kbd "M-q") 'haml-reindent)))
+;; Ruby
+(add-hook 'enh-ruby-mode-hook 'robe-mode)
+;(eval-after-load 'company
+;  '(push 'company-robe company-backends))
+;(add-hook 'robe-mode-hook 'ac-robe-setup)
+(add-hook 'enh-ruby-mode-hook 'inf-ruby-minor-mode)
+(require 'rubocop)
+(add-hook 'ruby-mode-hook #'rubocop-mode)

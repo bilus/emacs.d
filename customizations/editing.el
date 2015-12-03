@@ -91,3 +91,20 @@ there's a region, all lines that region covers will be duplicated."
       (goto-char (+ origin (* (length region) arg) arg)))))
 
 (global-set-key (kbd "C-c d") 'duplicate-current-line-or-region)
+
+;; (defun my-indent-region (N)
+  ;; (interactive "p")
+  ;; (if (use-region-p)
+      ;; (progn (indent-rigidly (region-beginning) (region-end) (* N 4))
+             ;; (setq deactivate-mark nil))
+    ;; (self-insert-command N)))
+
+ ;; (defun my-unindent-region (N)
+  ;; (interactive "p")
+  ;; (if (use-region-p)
+      ;; (progn (indent-rigidly (region-beginning) (region-end) (* N -4))
+             ;; (setq deactivate-mark nil))
+    ;; (self-insert-command N)))
+
+;; (global-set-key (kbd ">") 'my-indent-region)
+;; (global-set-key (kbd "<") 'my-unindent-region)

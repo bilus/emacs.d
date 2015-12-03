@@ -37,7 +37,7 @@
   (interactive)
   (run-clojure "lein figwheel"))
 
-(add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)
+;; (add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)
 
 ;;;;
 ;; Cider
@@ -63,7 +63,8 @@
 (add-hook 'cider-repl-mode-hook 'paredit-mode)
 
 ;; Fix cider-switch-to-relevant-repl-buffer not working for Figwheel/clj
-(setq cider-switch-to-repl-command #'cider-switch-to-default-repl-buffer)
+;; Doesn't really help.
+(setq cider-switch-to-repl-command #'cider-switch-to-relevant-repl-buffer)
 
 ;; Use clojure mode for other extensions
 (add-to-list 'auto-mode-alist '("\\.edn$" . clojure-mode))
@@ -98,7 +99,8 @@
      (define-key clojure-mode-map (kbd "C-c C-v") 'cider-start-http-server)
      (define-key clojure-mode-map (kbd "C-M-r") 'cider-refresh)
      (define-key clojure-mode-map (kbd "C-c u") 'cider-user-ns)
-     (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)))
+     (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)
+     (define-key cider-mode-map (kbd "C-c C-z") 'cider-switch-to-relevant-repl-buffer)))
 
 ;;; Set up syntax checking on the fly.
 ;; (require 'flycheck-clojure)
