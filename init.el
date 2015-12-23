@@ -13,7 +13,7 @@
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
-;(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t) 
+;(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
 ;(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 ;                         ("marmalade" . "http://marmalade-repo.org/packages/")
@@ -36,7 +36,7 @@
 ;; Add in your own as you wish:
 (defvar my-packages
   '(ag
-    
+
     ;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
     paredit
@@ -44,7 +44,7 @@
 
     ;; Autocompletion
     company
-    
+
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
     clojure-mode
@@ -67,9 +67,9 @@
 
     ;; Syntax checking
 ;    flycheck
-;    flycheck-clojure
-;    flycheck-pos-tip
-    
+   ;; flycheck-clojure
+   flycheck-pos-tip
+
     ;; Semantic region expansion
     expand-region
 
@@ -82,7 +82,7 @@
     ido-ubiquitous
 
     ;; Allow to go to Java class source.
-    javap 
+    javap
 
     ;; Enhances M-x to allow easier execution of commands. Provides
     ;; a filterable list of possible commands in the minibuffer
@@ -91,7 +91,7 @@
 
     ;; symbol search
     smartscan
-    
+
     ;; Searching project files.
     find-file-in-project
     swiper
@@ -123,6 +123,10 @@
     inf-ruby
     rubocop
     flycheck
+    projectile-rails
+    ruby-end
+    rspec-mode
+    mmm-mode ; TODO: Configure for ruby and js in .erb files
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -149,7 +153,7 @@
 ;;
 ;; (require 'yaml-mode)
 ;; (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
-;; 
+;;
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
 (add-to-list 'load-path "~/.emacs.d/vendor")
@@ -291,6 +295,8 @@ Repeated invocations toggle between the two most recently open buffers."
 ;; Start maximized.
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+;; Auto-revert unmodified buffers when they change on disk.
+(global-auto-revert-mode t)
 
 ;; Ag results.
 (setq ag-highlight-search t)
@@ -318,6 +324,8 @@ Repeated invocations toggle between the two most recently open buffers."
 ;; (add-hook 'find-file-hook 'javad-find-class)
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
+(with-eval-after-load 'flycheck
+  (flycheck-pos-tip-mode))
 
 ;; Remove trailing whitespace on save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
@@ -330,10 +338,17 @@ Repeated invocations toggle between the two most recently open buffers."
                  (setq indent-tabs-mode nil)
                  (define-key haml-mode-map (kbd "M-q") 'haml-reindent)))
 ;; Ruby
-(add-hook 'enh-ruby-mode-hook 'robe-mode)
+(add-hook 'ruby-mode-hook 'robe-mode)
 ;(eval-after-load 'company
 ;  '(push 'company-robe company-backends))
 ;(add-hook 'robe-mode-hook 'ac-robe-setup)
 (add-hook 'enh-ruby-mode-hook 'inf-ruby-minor-mode)
 (require 'rubocop)
 (add-hook 'ruby-mode-hook #'rubocop-mode)
+(add-hook 'projectile-mode-hook 'projectile-rails-on)
+
+
+
+;; Switch between windows (C-x o).
+;; (global-set-key (quote [C-tab]) (quote other-window))
+(global-set-key (read-kbd-macro "<C-tab>") 'other-window)

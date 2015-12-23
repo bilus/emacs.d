@@ -26,7 +26,7 @@
             (define-clojure-indent (facts 1))))
 
 ;; Paredit keys
-(add-hook 'clojure-mode-hook 
+(add-hook 'clojure-mode-hook
           (lambda ()
              (local-set-key (kbd "M-[") 'paredit-wrap-square)
              (local-set-key (kbd "M-{") 'paredit-wrap-curly)
@@ -104,9 +104,10 @@
 
 ;;; Set up syntax checking on the fly.
 ;; (require 'flycheck-clojure)
+;; (eval-after-load 'flycheck '(flycheck-clojure-setup))
 ;; (add-hook 'cider-mode-hook (lambda ()
                             ;; (when (s-ends-with-p ".clj" (buffer-file-name))
                               ;; (flycheck-mode 1))))
-	
+
 ;; (eval-after-load 'flycheck '(add-to-list 'flycheck-checkers 'kibit))
 ;; (eval-after-load 'flycheck '(add-to-list 'flycheck-checkers 'typed))
