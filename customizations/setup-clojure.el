@@ -64,7 +64,7 @@
 
 ;; Fix cider-switch-to-relevant-repl-buffer not working for Figwheel/clj
 ;; Doesn't really help.
-(setq cider-switch-to-repl-command #'cider-switch-to-relevant-repl-buffer)
+;; (setq cider-switch-to-repl-command #'cider-switch-to-relevant-repl-buffer)
 
 ;; Use clojure mode for other extensions
 (add-to-list 'auto-mode-alist '("\\.edn$" . clojure-mode))
@@ -100,7 +100,8 @@
      (define-key clojure-mode-map (kbd "C-M-r") 'cider-refresh)
      (define-key clojure-mode-map (kbd "C-c u") 'cider-user-ns)
      (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)
-     (define-key cider-mode-map (kbd "C-c C-z") 'cider-switch-to-relevant-repl-buffer)))
+     ;; (define-key cider-mode-map (kbd "C-c C-z") 'cider-switch-to-relevant-repl-buffer)
+     ))
 
 ;;; Set up syntax checking on the fly.
 ;; (require 'flycheck-clojure)

@@ -66,9 +66,9 @@
     align-cljlet
 
     ;; Syntax checking
-;    flycheck
-   ;; flycheck-clojure
-   flycheck-pos-tip
+                                        ;    flycheck
+    ;; flycheck-clojure
+    flycheck-pos-tip
 
     ;; Semantic region expansion
     expand-region
@@ -126,8 +126,27 @@
     projectile-rails
     ruby-end
     rspec-mode
-    mmm-mode ; TODO: Configure for ruby and js in .erb files
+    mmm-mode           ; TODO: Configure for ruby and js in .erb files
+    ruby-refactor
+
+    ;; Dash integration
+    dash-at-point
+
+    ;; Go to last change
+    goto-chg
+
+    ;; Undo Tree
+    undo-tree
+
+    ;; Markdown
+    markdown-mode
+;;    websocket				;
+;;    markdown-preview-mode
+
+    floobits
     ))
+
+(global-undo-tree-mode)
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -200,13 +219,27 @@
 (global-set-key (kbd "C--") 'er/expand-region)
 (global-set-key (kbd "C-_") 'er/contract-region)
 
+;; Switch between windows (C-x o).
+;; (global-set-key (quote [C-tab]) (quote other-window))
+(global-set-key (read-kbd-macro "<C-tab>") 'other-window)
+
+(setq mac-command-modifier 'super) ; make opt key do Super
+(global-set-key (kbd "C-c l") 'goto-last-change)
+(global-set-key (kbd "C-c n") 'goto-last-change-reverse)
+
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
+;; Put fname in title.
+(setq-default frame-title-format '((:eval (if (buffer-file-name)
+                                              (abbreviate-file-name (buffer-file-name)) "%f"))))
 ;; Handle Polish chars.
 (setq ns-right-alternate-modifier nil)
 
 ;; Save all buffers on lost focus.
 (add-hook 'focus-out-hook (lambda () (save-some-buffers t)))
+
+;; Always reload changed files.
+(global-auto-revert-mode 1)
 
 (require 'cider-eval-sexp-fu)
 
@@ -251,7 +284,6 @@
 (setq dired-use-ls-dired nil)
 
 ;; Autocomplete.
-(global-company-mode)
 (global-set-key (kbd "TAB") #'company-indent-or-complete-common) ;; Use TAB for indenting AND for autocompletion.
 
 ;; Searching using Swiper+Ivy.
@@ -343,12 +375,38 @@ Repeated invocations toggle between the two most recently open buffers."
 ;  '(push 'company-robe company-backends))
 ;(add-hook 'robe-mode-hook 'ac-robe-setup)
 (add-hook 'enh-ruby-mode-hook 'inf-ruby-minor-mode)
+(setq robe-turn-on-eldoc nil)
 (require 'rubocop)
 (add-hook 'ruby-mode-hook #'rubocop-mode)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
 
+(add-hook 'ruby-mode-hook 'ruby-refactor-mode-launch)
+(setq ruby-refactor-add-parens 't)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(ruby-refactor-add-parens t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 
+(add-hook 'after-init-hook 'global-company-mode)
 
-;; Switch between windows (C-x o).
-;; (global-set-key (quote [C-tab]) (quote other-window))
-(global-set-key (read-kbd-macro "<C-tab>") 'other-window)
+;; Mark lines with TODO:
+
+(defun annotate-todo ()
+  "put fringe marker on TODO: lines in the curent buffer"
+  (interactive)
+  (save-excursion
+    (goto-char (point-min))
+    (while (re-search-forward "TODO:" nil t)
+      (let ((overlay (make-overlay (- (point) 5) (point))))
+        (overlay-put overlay 'before-string (propertize "A"
+                                                        'display '(left-fringe right-triangle)))))))
+(add-hook 'find-file-hooks 'annotate-todo)

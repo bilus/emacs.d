@@ -1,29 +1,426 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/martinb/.lein/profiles.clj" . 357)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/" . 1641)
+(("/Users/martinb/dev/Tooploox/kawaii/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/kawaii/lib"))
+ ("/Users/martinb/dev/Tooploox/kawaii/lib/kawaii/render_methods.rb" . 47)
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core/inflector/inflection_rules.rb" . 5548)
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/spec/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby/contrib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby/contrib/.."))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby/core"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby/core/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby/core/inflector_spec.rb"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core-ext/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core-ext/string"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core-ext/string/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core-ext/string/inflections.rb"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/ruby-contrib.gemspec"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/contrib"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/contrib/callbacks/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/contrib/callbacks/.."))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/contrib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/contrib/callbacks.rb"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/contrib/callbacks.rb" . 81)
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core/inflector/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core/inflector/.."))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core/inflector.rb"))
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core/inflector.rb" . 405)
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/lib/ruby/core-ext/string/inflections.rb" . 190)
+ ("/Users/martinb/dev/Tooploox/ruby-contrib/spec/ruby/core/inflector_spec.rb" . 2653)
+ ("/Users/martinb/dev/Tooploox/deviant/core/" . 1095)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/app/config/routes.rb" . 209)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/configuration.rb" . 76)
+ ("/Users/martinb/dev/Tooploox/deviant/core/doc/diagrams/action_dispatch.png" . 27137)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/http_routes/block_action.rb" . 288)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/controller_actions/controller_action.rb" . 175)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/controller/config/routes.rb" . 68)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/controller/app/controllers/posts_controller.rb" . 103)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/services/app/controllers/posts_controller.rb" . 174)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/services/lib/hello_world.rb" . 169)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/defaults/plugins.rb" . 927)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/services/lib/translation.rb" . 77)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/services/lib/twitter.rb" . 93)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/dependency_injection.rb" . 396)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/services/config/routes.rb" . 113)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/dispatching/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/dispatching/.."))
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/controller_actions/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/controller_actions/.."))
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/controller_actions.rb"))
+ ("/Users/martinb/dev/Tooploox/deviant/core/spec/plugins/routing/router_spec.rb" . 234)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/rack_adapter.rb" . 42)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/bootstrap.rb" . 936)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant.rb" . 271)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/dispatching.rb" . 489)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/routing.rb" . 363)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/pluggable_class.rb" . 988)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/routing/router.rb" . 631)
+ ("/Users/martinb/dev/Tooploox/deviant/core/spec/integration/route_dsl_spec.rb" . 441)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/namespaces.rb" . 602)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/controller_actions.rb" . 820)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/dispatching/action_context.rb" . 1385)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/resources.rb" . 389)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/resource.rb" . 718)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/controller_actions/controller_route.rb" . 59)
+ ("/Users/martinb/dev/Tooploox/deviant/core/spec/controller_dsl_spec.rb" . 2389)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/routing/route_builder.rb" . 643)
+ ("/Users/martinb/dev/Tooploox/deviant/.gitignore" . 153)
+ ("/Users/martinb/dev/Tooploox/deviant/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/core"))
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/core/lib/deviant"))
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/" . 828)
+ ("/Users/martinb/dev/Tooploox/deviant/core/deviant.gemspec" . 1665)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/bootstrap/project_loader.rb" . 257)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/bootstrap/loader.rb" . 711)
+ ("/Users/martinb/dev/Tooploox/deviant/core/spec/factories/plugins/plugin_factories.rb" . 1275)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/utility/trait.rb" . 171)
+ ("/Users/martinb/dev/Tooploox/deviant/core/spec/utility/trait_spec.rb" . 610)
+ ("/Users/martinb/dev/Tooploox/deviant/core/spec/plugins/pluggable_class_spec.rb" . 2118)
+ ("/Users/martinb/dev/Tooploox/deviant/core/doc/Plugins.md" . 4282)
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/controller/actions.rb" . 318)
+ ("/Users/martinb/dev/Tooploox/deviant/sandbox.rb" . 854)
+ ("/Users/martinb/dev/Tooploox/deviant/core/spec/factories/utility/request_factory.rb" . 462)
+ ("/Users/martinb/dev/Tooploox/deviant/core/benchmarks/bench-micro/scenario_a.ru" . 89)
+ ("/Users/martinb/dev/Tooploox/deviant/core/benchmarks/bench-micro/scenario_c.ru" . 130)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/ruby/core-ext/string/constantize.rb" . 71)
+ ("/Users/martinb/dev/Tooploox/deviant/core/benchmarks/bench-micro/run.sh" . 506)
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/action/glue.rb" . 257)
+ ("/Users/martinb/Downloads/bnkawaii/"
+  (dired-filename . "/Users/martinb/Downloads/bnkawaii/lib"))
+ ("/Users/martinb/Downloads/bnkawaii/lib/"
+  (dired-filename . "/Users/martinb/Downloads/bnkawaii/lib/bnkawaii.rb"))
+ ("/Users/martinb/dev/clojure_apps/proton/backend/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/backend/.."))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/previous/lib"))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant"))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/action/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/action/.."))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/controller/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/controller/.."))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/dispatch/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/dispatch/.."))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/routing"))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/routing/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/routing/router.rb"))
+ ("/Users/martinb/dev/Tooploox/deviant/previous/lib/deviant/routing/router.rb" . 354)
+ ("/Users/martinb/dev/Tooploox/bench-micro/apps/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/bench-micro/apps/brooklyn.ru"))
+ ("/Users/martinb/dev/Tooploox/bench-micro/apps/sinatra.ru" . 328)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/hello_world/config.ru" . 91)
+ ("/Users/martinb/dev/Tooploox/deviant/core/benchmarks.rb" . 504)
+ ("/Users/martinb/dev/Tooploox/deviant/core/Gemfile" . 320)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/environment.rb" . 233)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/app/lib/hello.rb" . 22)
+ ("/Users/martinb/dev/Tooploox/deviant/core/examples/app/config/plugins.rb" . 142)
+ ("/Users/martinb/dev/Tooploox/deviant/core/bin/deviant" . 110)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/boot.rb" . 111)
+ ("/Users/martinb/dev/Tooploox/deviant/core/README.md" . 388)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/routing/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/routing/.."))
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/rack_server.rb" . 299)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/rack_server/rack_server_impl.rb" . 417)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/rack_server/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/rack_server/rack_server_impl.rb"))
+ ("/Users/martinb/.emacs.d/init.el" . 11642)
+ ("/Users/martinb/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/rubygems/dependency.rb" . 7191)
+ ("/Users/martinb/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/rubygems/specification.rb" . 23731)
+ ("/Users/martinb/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/rubygems/basic_specification.rb" . 1820)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/utility/request.rb" . 93)
+ ("/Users/martinb/dev/Tooploox/deviant/core/lib/deviant/plugins/plugin.rb" . 105)
+ ("/Users/martinb/dev/Tooploox/kawaii/lib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/kawaii/lib/kawaii"))
+ ("/Users/martinb/dev/Tooploox/kawaii/lib/kawaii/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/kawaii/lib/kawaii/render_methods.rb"))
+ ("/Users/martinb/dev/Tooploox/kawaii/lib/kawaii/controller.rb" . 407)
+ ("/Users/martinb/dev/Tooploox/kawaii/lib/kawaii/base.rb" . 1211)
+ ("/Users/martinb/dev/Tooploox/rails/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/rails/README.md"))
+ ("/Users/martinb/dev/Tooploox/rails/actionpack/lib/action_dispatch/journey/router.rb" . 702)
+ ("/Users/martinb/dev/Tooploox/test.rb" . 1030)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/javascripts/api/v1/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/javascripts/api/v1/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/javascripts/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/javascripts/api/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/javascripts/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/javascripts/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/config/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/config/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/assets/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/Gemfile" . 1348)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/api/v1/shapes_controller.rb" . 3198)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/concerns/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/concerns/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/helpers/api/v1/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/helpers/api/v1/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/helpers/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/helpers/api/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/helpers/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/helpers/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/jobs/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/jobs/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/mailers/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/mailers/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/api"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/api/v1/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/api/v1/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/api/v1"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/serializers/api/v1/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/serializers/api/v1/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/serializers/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/serializers/api/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/serializers/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/serializers/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/messages/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/messages/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/layouts/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/layouts/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/api/v1/canvases/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/api/v1/canvases/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/api/v1/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/api/v1/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/api/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/channels/application_cable/diagram_channel.rb" . 139)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/channels/application_cable/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/channels/application_cable/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/channels/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/channels/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/api"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/api/v1"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/api/v1/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/api/v1/canvases_controller.rb"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/db/migrate/20160108142818_add_diagram_id_to_canvas.rb" . 103)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/controllers/api/v1/canvases_controller_spec.rb" . 3290)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/controllers/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/controllers/api/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/controllers/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/controllers/.."))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/models"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/models/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/models/api"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/models/api/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/models/api/v1"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/models/api/v1/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/spec/models/api/v1/canvas_spec.rb"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/api/v1/diagram.rb" . 67)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/models/api/v1/canvas.rb" . 419)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/db/schema.rb" . 782)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/Dockerfile" . 1129)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/config.ru"))
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/config/database.yml" . 368)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/controllers/api/v1/canvases_controller.rb" . 1284)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/channels/application_cable/connection.rb" . 363)
+ ("/Users/martinb/dev/Tooploox/hr/pawel-przylucki/rails5-api-websockets/app/views/messages/index.html.erb" . 81)
+ ("/etc/hosts" . 188)
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/README.md" . 1465)
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/app.rb" . 228)
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/controllers/posts_controller.rb" . 22)
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/controllers/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/controllers/.."))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/bin/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/bin/.."))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/config"))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/config/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/example/config/route.rb"))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/spec/kawaii/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/spec/kawaii/.."))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/spec/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/spec/.."))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib"))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/spec/kawaii/dispatcher_spec.rb" . 314)
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib/kawaii"))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib/kawaii/executor.rb" . 894)
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib/kawaii/router.rb" . 1385)
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib/kawaii/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib/kawaii/action_controller.rb"))
+ ("/Users/martinb/dev/Tooploox/hr/bartek.dymowski/kawaii.rb/lib/kawaii/engine.rb" . 528)
+ ("/Users/martinb/dev/Tooploox/hr/szymon.miedziejko/router/config/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/szymon.miedziejko/router/config/.."))
+ ("/Users/martinb/dev/Tooploox/hr/szymon.miedziejko/router/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/szymon.miedziejko/router/lib"))
+ ("/Users/martinb/dev/Tooploox/hr/szymon.miedziejko/router/lib/"
+  (dired-filename . "/Users/martinb/dev/Tooploox/hr/szymon.miedziejko/router/lib/path.rb"))
+ ("/Users/martinb/dev/Tooploox/hr/szymon.miedziejko/router/lib/path.rb" . 567)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/proton-billing/app"))
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/orders/show.html.erb" . 3215)
+ ("/Users/martinb/dev/clojure_apps/reforms/reforms/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/src"))
+ ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms"))
+ ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/.."))
+ ("/Users/martinb/dev/clojure_apps/reforms/reforms/README.md" . 25559)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/app_state.clj" . 2324)
+ ("/Users/martinb/dev/clojure_apps/proton/node/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/cljs"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/activation.cljs" . 1814)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/admin_dashboard.cljs" . 6963)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/context_help.cljs" . 1315)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/core.cljs" . 721)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/defaults.cljs" . 627)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/firebird.cljs" . 3007)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/oracle.cljs" . 9351)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/.."))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_status.cljs" . 1688)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_status_filter.cljs" . 1384)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_status_view.cljs" . 5003)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/upload.cljs"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/project.clj" . 2298)
+ ("/Users/martinb/.emacs.d/elpa/goto-chg-20131228.659/goto-chg-autoloads.el" . 1856)
+ ("/Users/martinb/dev/clojure_apps/proton/node/target/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/target/classes"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/target/classes/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/target/classes/META-INF"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/target/classes/META-INF/"
+  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/target/classes/META-INF/maven"))
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/dump/core.clj" . 1025)
+ ("/Users/martinb/.emacs.d/elpa/dash-at-point-20140626.35/dash-at-point-autoloads.el" . 5703)
+ ("/Users/martinb/.emacs.d/customizations/setup-clojure.el" . 3208)
+ ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/dev_helpers.clj" . 514)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/backup.clj" . 3061)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/web_server.clj" . 4721)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/app.clj" . 12961)
+ ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/upload.clj" . 1996)
+ ("/Users/martinb/.emacs.d/elpa/cider-decompile-20151121.2137/cider-decompile-autoloads.el" . 652)
+ ("/Users/martinb/.emacs.d/elpa/javap-mode-20120223.1408/javap-mode-autoloads.el" . 374)
+ ("/Users/martinb/.emacs.d/elpa/ag-20151226.1605/ag-autoloads.el" . 2967)
+ ("/Users/martinb/.emacs.d/elpa/async-20151228.2255/async-autoloads.el" . 4113)
+ ("/Users/martinb/.emacs.d/elpa/cider-20151229.920/cider-autoloads.el" . 7192)
+ ("/Users/martinb/.emacs.d/elpa/clipmon-20151224.947/clipmon-autoloads.el" . 2644)
+ ("/Users/martinb/.emacs.d/elpa/clojure-mode-20151229.1243/clojure-mode-autoloads.el" . 1145)
+ ("/Users/martinb/.emacs.d/elpa/company-20151230.427/company-autoloads.el" . 8241)
+ ("/Users/martinb/.emacs.d/elpa/flycheck-pos-tip-20151224.622/flycheck-pos-tip-autoloads.el" . 1318)
+ ("/Users/martinb/.emacs.d/elpa/inf-clojure-20151224.1207/inf-clojure-autoloads.el" . 1021)
+ ("/Users/martinb/.emacs.d/elpa/magit-20151230.2252/magit-autoloads.el" . 47174)
+ ("/Users/martinb/.emacs.d/elpa/magit-popup-20151223.1341/magit-popup-autoloads.el" . 260)
+ ("/Users/martinb/.emacs.d/elpa/projectile-20151227.1230/projectile-autoloads.el" . 8393)
+ ("/Users/martinb/.emacs.d/elpa/robe-20151230.449/robe-autoloads.el" . 1258)
+ ("/Users/martinb/.emacs.d/elpa/rspec-mode-20151230.502/rspec-mode-autoloads.el" . 1132)
+ ("/Users/martinb/.emacs.d/elpa/swiper-20151231.40/swiper-autoloads.el" . 2400)
+ ("/Users/martinb/.emacs.d/elpa/yasnippet-20151227.1550/yasnippet-autoloads.el" . 1512)
+ ("/Users/martinb/.lein/profiles.clj" . 699)
+ ("/Users/martinb/dev/Criticue/"
+  (dired-filename . "/Users/martinb/dev/Criticue/app"))
+ ("/Users/martinb/dev/Criticue/spec/models/facebook_callback_model_spec.rb" . 75)
+ ("/Users/martinb/dev/Criticue/spec/models/share_request_model_spec.rb" . 2304)
+ ("/Users/martinb/dev/Criticue/app/models/share_request_model.rb" . 492)
+ ("/Users/martinb/dev/Criticue/app/facebook_app.rb" . 427)
+ ("/Users/martinb/dev/Criticue/spec/presenters/facebook_callback_presenter_spec.rb" . 927)
+ ("/Users/martinb/dev/Criticue/app/presenters/facebook_callback_presenter.rb" . 902)
+ ("/Users/martinb/dev/Criticue/lib/support/link_builder.rb" . 954)
+ ("/Users/martinb/dev/Criticue/app/models/facebook_callback_model.rb" . 436)
+ ("/Users/martinb/dev/Criticue/views/_review.haml" . 1270)
+ ("/Users/martinb/dev/Criticue/app/"
+  (dired-filename . "/Users/martinb/dev/Criticue/app/presenters"))
+ ("/Users/martinb/dev/Criticue/app/presenters/"
+  (dired-filename . "/Users/martinb/dev/Criticue/app/presenters/share_review_presenter.rb"))
+ ("/Users/martinb/dev/Criticue/app/presenters/share_review_presenter.rb" . 629)
+ ("/Users/martinb/dev/Criticue/app/models/share_review_model.rb" . 1445)
+ ("/Users/martinb/dev/Criticue/app/presenters/account_item_removal_presenter.rb" . 669)
+ ("/Users/martinb/dev/Criticue/lib/event_map/haml_surface.rb" . 387)
+ ("/Users/martinb/dev/Criticue/app/presenters/account_signup_presenter.rb" . 1749)
+ ("/Users/martinb/dev/Criticue/app/main_app.rb" . 1001)
+ ("/Users/martinb/dev/Criticue/views/_layout_facebook_tab_close.haml" . 1571)
+ ("/Users/martinb/dev/Criticue/views/close.haml" . 347)
+ ("/Users/martinb/dev/Criticue/public/javascripts/criticue_api.js" . 10280)
+ ("/Users/martinb/dev/Criticue/lib/policies/authentication_policy/warden_facebook_strategy_helpers.rb" . 1499)
+ ("/Users/martinb/dev/Criticue/public/whitelabel/js/wl_Dialog.js" . 7401)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/payments_controller.rb" . 613)
+ ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/warden-1.2.3/lib/warden/proxy.rb" . 4254)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/users/sessions_controller.rb" . 246)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/README.rdoc" . 468)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/lib/period_manager_spec.rb" . 723)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/support/controller_helpers.rb" . 191)
+ ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/devise-3.5.2/lib/devise/controllers/sign_in_out.rb" . 2332)
+ ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/devise-3.5.2/lib/devise/controllers/helpers.rb" . 4860)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/application_controller.rb" . 916)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/period_manager.rb" . 983)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/controllers/pays_controller_spec.rb" . 1276)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/lib/query_subscription_spec.rb" . 1115)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/pays_controller.rb" . 1046)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/subscription.rb" . 1702)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/subscriptions_helper.rb" . 44)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/subscriptions/index.html.erb" . 1923)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/orders/index.html.erb" . 1012)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/orders_helper.rb" . 4713)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/events/_events.html.erb" . 969)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/events_controller.rb" . 232)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/orders_controller.rb" . 676)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/logs_controller.rb" . 549)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/dashboards_helper.rb" . 588)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/events/_nav.html.erb" . 124)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/subscriptions_controller.rb" . 833)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/affiliate_dashboard_controller.rb" . 224)
+ ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/workflow-1.2.0/lib/workflow/draw.rb" . 2499)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/models/subscription_spec.rb" . 1365)
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/Gemfile" . 797)
+ ("/Users/martinb/.emacs.d/customizations/"
+  (dired-filename . "/Users/martinb/.emacs.d/customizations/.."))
+ ("/Users/martinb/.emacs.d/auto-save-list/"
+  (dired-filename . "/Users/martinb/.emacs.d/auto-save-list/.."))
+ ("/Users/martinb/.emacs.d/"
+  (dired-filename . "/Users/martinb/.emacs.d/ido.last"))
+ ("/Users/martinb/.emacs.d/ido.last" . 37188)
+ ("/Users/martinb/.emacs.d/elpa/align-cljlet-20151105.2354/align-cljlet-autoloads.el" . 412)
+ ("/Users/martinb/.emacs.d/elpa/clj-refactor-20151210.200/clj-refactor-autoloads.el" . 11553)
+ ("/Users/martinb/.emacs.d/elpa/dash-20151216.1315/dash-autoloads.el" . 239)
+ ("/Users/martinb/.emacs.d/elpa/edn-20150929.146/edn-autoloads.el" . 2054)
+ ("/Users/martinb/.emacs.d/elpa/exec-path-from-shell-20151125.1133/exec-path-from-shell-autoloads.el" . 1252)
+ ("/Users/martinb/.emacs.d/elpa/find-file-in-project-20151216.1850/find-file-in-project-autoloads.el" . 3062)
+ ("/Users/martinb/.emacs.d/elpa/flycheck-20151223.702/flycheck-autoloads.el" . 8336)
+ ("/Users/martinb/.emacs.d/elpa/git-commit-20151111.418/git-commit-autoloads.el" . 1082)
+ ("/Users/martinb/.emacs.d/elpa/highlight-20151204.1651/highlight-autoloads.el" . 23185)
+ ("/Users/martinb/.emacs.d/elpa/hydra-20151214.417/hydra-autoloads.el" . 2241)
+ ("/Users/martinb/.emacs.d/elpa/ido-completing-read+-20151219.836/ido-completing-read+-autoloads.el" . 2922)
+ ("/Users/martinb/.emacs.d/elpa/ido-ubiquitous-20151219.836/ido-ubiquitous-autoloads.el" . 1633)
+ ("/Users/martinb/.emacs.d/elpa/multiple-cursors-20151205.1225/multiple-cursors-autoloads.el" . 8613)
+ ("/Users/martinb/.emacs.d/elpa/smex-20151212.1409/smex-autoloads.el" . 490)
+ ("/Users/martinb/.emacs.d/elpa/with-editor-20151223.1341/with-editor-autoloads.el" . 260)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/query_subscription.rb" . 632)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/orders_controller.rb" . 820)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/assets/stylesheets/orders.scss" . 2276)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/users/_list.html.erb" . 599)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/users_helper.rb" . 504)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/user.rb" . 1622)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/dashboards_controller.rb" . 548)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/users_controller.rb" . 2086)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/orders/show.html.erb" . 830)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/state_machine.rb" . 650)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/order.rb" . 1148)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/affiliate_balance.rb" . 323)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/affiliate_dashboard/show.html.erb" . 394)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/affiliate_dashboard_controller.rb" . 249)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/config/routes.rb" . 909)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/Gemfile" . 1737)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/clients/index.html.erb" . 846)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/application_controller.rb" . 1132)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/users/show.html.erb" . 691)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/README.rdoc" . 2702)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/subscription.rb" . 873)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/events_controller.rb" . 350)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/logs_controller.rb" . 632)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/logs_checker.rb" . 459)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/users/index.html.erb" . 401)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/assets/javascripts/application.js" . 1144)
@@ -31,26 +428,20 @@
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/assets/stylesheets/users.scss" . 186)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/partners/index.html.erb" . 1062)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/affiliate.rb" . 132)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/user_admin.rb" . 940)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/company.rb" . 1359)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/config/initializers/session_store.rb" . 147)
  ("/Users/martinb/dev/clojure_apps/proton/auth/"
   (dired-filename . "/Users/martinb/dev/clojure_apps/proton/auth/src"))
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/ext_deps_helper.rb" . 584)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/features/orders_through_affiliate_spec.rb" . 465)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/orders_helper.rb" . 4330)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/referral_link.rb" . 265)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/schema.rb" . 8445)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/order_builder.rb" . 150)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/controllers/order_controller_spec.rb" . 1139)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/controllers/users_controller_spec.rb" . 2909)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/lib/query_subscription_spec.rb" . 1482)
- ("/Users/martinb/.emacs.d/init.el" . 3189)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/seeds.rb" . 1502)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/rails_email_preview/" . 304)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/subscription_acceptance_controller.rb" . 303)
- ("/Users/martinb/dev/Criticue/"
-  (dired-filename . "/Users/martinb/dev/Criticue/features"))
  ("/Users/martinb/dev/Criticue/features/support/helpers.rb" . 1067)
  ("/Users/martinb/dev/Criticue/features/"
   (dired-filename . "/Users/martinb/dev/Criticue/features/support"))
@@ -63,7 +454,6 @@
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/config/environments/development.rb" . 2212)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/lib/referral_link_spec.rb" . 970)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/application_helper.rb" . 129)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/models/subscription_spec.rb" . 1240)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/controllers/agents_controller_spec.rb" . 505)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/orders/_form_for_agent.html.erb" . 1438)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/layouts/_agent_navbar.html.erb" . 25)
@@ -80,7 +470,6 @@
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/errors/500.html.erb" . 82)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/errors/_maintenance.html.erb" . 71)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/models/subscription_acceptance_spec.rb" . 1148)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/extends_controller.rb" . 533)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/concerns/"
   (dired-filename . "/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/concerns/.."))
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/invoice.rb" . 139)
@@ -88,7 +477,6 @@
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/payment.rb" . 60)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/subscription_license.rb" . 161)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/subscription_acceptance.rb" . 127)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/lib/period_manager_spec.rb" . 723)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/"
   (dired-filename . "/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/rails_email_preview"))
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/models/rails_email_preview/preview.rb" . 290)
@@ -112,366 +500,11 @@
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/rails_helper.rb" . 1057)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/migrate/20151007081016_add_reference_subscriptions_and_orders_to_user.rb" . 234)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/migrate/20151216104133_add_affiliate_ref_to_orders.rb" . 164)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/payments_controller.rb" . 653)
- ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/devise-3.5.2/lib/devise/controllers/sign_in_out.rb" . 1382)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/controllers/payments_controller_spec.rb" . 405)
  ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/abstract_controller/rendering.rb" . 1114)
  ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/proton-provision-0.9.5/lib/provision/subscription.rb" . 395)
  ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/proton-provision-0.9.5/lib/provision/backend_api/subscriptions.rb" . 1063)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/Guardfile" . 1428)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/events/_nav.html.erb" . 215)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/events/_events.html.erb"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/events/_events.html.erb"))
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/events_helper.rb" . 25)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/logs/index.js.erb" . 60)
  ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/logs/_keys.html.erb" . 385)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/logs_helper.rb" . 1175)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/migrate/20151202081558_rename_user_admin_to_agent.rb" . 263)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/features/referral_orders_spec.rb" . 867)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/layouts/_admin_navbar.html.erb" . 534)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/landing_controller.rb" . 191)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/clients_controller.rb" . 265)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/models/user_spec.rb" . 806)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/models/agent_spec.rb" . 779)
- ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/rspec-core-3.3.2/lib/rspec/core/example_group.rb" . 13182)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/errors/404.html.erb" . 36)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/errors_controller.rb" . 128)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/.."))
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/assets/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/proton-billing/app/assets/.."))
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/subscription_provisioner.rb" . 920)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/extendtrials_controller.rb" . 595)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/migrate/20150804085203_add_colum_onrder_id_to_payments.rb" . 89)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/migrate/20151214141442_remove_obsolete_fields_from_payments.rb" . 127)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/db/migrate/20151214141654_add_order_reference_to_payments.rb" . 124)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/lib/period_manager.rb" . 657)
- ("/Users/martinb/dev/Foghorn/config/routes.rb" . 1736)
- ("/Users/martinb/dev/Foghorn/"
-  (dired-filename . "/Users/martinb/dev/Foghorn/.."))
- ("/Users/martinb/dev/Foghorn/app/helpers/application_helper.rb" . 1477)
- ("/Users/martinb/dev/Foghorn/app/controllers/home_controller.rb" . 70)
- ("/Users/martinb/dev/Foghorn/app/controllers/application_controller.rb" . 361)
- ("/Users/martinb/dev/Foghorn/app/models/user.rb" . 1028)
- ("/Users/martinb/dev/Foghorn/app/models/concerns/current_user.rb" . 324)
- ("/Users/martinb/dev/Foghorn/app/controllers/concerns/scope_current_user.rb" . 271)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/spec/controllers/invoices_controller_spec.rb" . 1271)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/test/controllers/subscriptions_controller_test.rb" . 24)
- ("/Users/martinb/.emacs.d/"
-  (dired-filename . "/Users/martinb/.emacs.d/init.el"))
- ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_controller/metal/flash.rb" . 1295)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/invoices_helper.rb" . 93)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/invoices/index.html.erb" . 277)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/dashboards/show.html.erb" . 199)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/views/invoices/_invoices_index.html.erb" . 774)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/controllers/agents_controller.rb" . 391)
- ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/agents_helper.rb" . 807)
- ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/activerecord-4.2.4/lib/active_record/inheritance.rb" . 2135)
- ("/Users/martinb/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_controller/metal/mime_responds.rb" . 7495)
- ("/etc/hosts" . 393)
- ("/Users/martinb/.emacs.d/.recentf" . 1782)
- ("/Users/martinb/.emacs.d/ido.last" . 37188)
- ("/Users/martinb/dev/Criticue/widget/app/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/app/README.md"))
- ("/Users/martinb/dev/Criticue/widget/app/src/cljs/app/handlers.cljs" . 1209)
- ("/Users/martinb/dev/Criticue/widget/app/project.clj" . 864)
- ("/Users/martinb/dev/Criticue/widget/app/src/cljs/app/user.cljs" . 402)
- ("/Users/martinb/dev/Criticue/widget/app/src/cljs/app/auth.cljs" . 834)
- ("/Users/martinb/dev/Criticue/widget/app/profiles.clj" . 101)
- ("/Users/martinb/dev/Criticue/widget/app/README.md" . 882)
- ("/Users/martinb/dev/Criticue/widget/app/src/clj/app/handler.clj" . 3411)
- ("/Users/martinb/dev/clojure_apps/reforms/reagent-reforms/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reagent-reforms/project.clj"))
- ("/Users/martinb/dev/clojure_apps/reforms/reagent-reforms/project.clj" . 2034)
- ("/Users/martinb/dev/clojure_apps/reforms/reagent-reforms/examples/validation/src/validation.cljs" . 1678)
- ("/Users/martinb/dev/clojure_apps/reforms/reagent-reforms/examples/hello_world/src/hello_world.cljs" . 568)
- ("/Users/martinb/dev/clojure_apps/proton/node/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/target"))
- ("/Users/martinb/dev/clojure_apps/proton/node/project.clj" . 6713)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/download.clj" . 4139)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/app.clj" . 15754)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/dump/oracle.clj" . 2213)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/dump/core.clj" . 3219)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/dump/oracle/prod_impl.clj" . 3876)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/upload.clj" . 2331)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/dump/firebird.clj" . 2403)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_status.cljs" . 1688)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_status_filter.cljs" . 1384)
- ("/Users/martinb/dev/kawaii/spec/"
-  (dired-filename . "/Users/martinb/dev/kawaii/spec/hello_world_spec.rb"))
- ("/Users/martinb/dev/kawaii/spec/spec_helper.rb" . 152)
- ("/Users/martinb/dev/kawaii/lib/kawaii/"
-  (dired-filename . "/Users/martinb/dev/kawaii/lib/kawaii/.."))
- ("/Users/martinb/dev/kawaii/lib/"
-  (dired-filename . "/Users/martinb/dev/kawaii/lib/kawaii.rb"))
- ("/Users/martinb/dev/kawaii/"
-  (dired-filename . "/Users/martinb/dev/kawaii/examples"))
- ("/Users/martinb/dev/kawaii/examples/"
-  (dired-filename . "/Users/martinb/dev/kawaii/examples/hello_world.ru"))
- ("/Users/martinb/dev/kawaii/examples/hello_world.ru" . 19)
- ("/Users/martinb/dev/kawaii/examples/hello_world.rb" . 98)
- ("/Users/martinb/dev/kawaii/examples/modular/second_app.rb" . 127)
- ("/Users/martinb/dev/kawaii/examples/modular.ru" . 94)
- ("/Users/martinb/dev/kawaii/examples/modular/first_app.rb" . 125)
- ("/Users/martinb/dev/kawaii/examples/nested_routes.rb" . 231)
- ("/Users/martinb/dev/kawaii/README.md" . 1638)
- ("/Users/martinb/dev/kawaii/spec/kawaii_spec.rb" . 1913)
- ("/Users/martinb/dev/kawaii/lib/kawaii.rb" . 1952)
- ("/Users/martinb/dev/kawaii/Guardfile" . 1492)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/src"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/core.clj" . 893)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/core.cljs"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/core.cljs" . 8460)
- ("/Users/martinb/dev/Criticue/config.ru" . 1573)
- ("/Users/martinb/dev/Criticue/app/app_base.rb" . 2620)
- ("/Users/martinb/dev/clojure_apps/proton/health/riemann.config.clj" . 2240)
- ("/Users/martinb/dev/clojure_apps/proton/auth/src/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/auth/src/auth"))
- ("/Users/martinb/dev/clojure_apps/proton/auth/src/auth/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/auth/src/auth/core.clj"))
- ("/Users/martinb/dev/clojure_apps/proton/auth/src/auth/core.clj" . 4815)
- ("/Users/martinb/dev/clojure_apps/proton/auth/project.clj" . 1227)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/README.md" . 17039)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/table.cljs" . 3800)
- ("/Users/martinb/dev/Criticue/widget/app/resources/public/index.html" . 342)
- ("/Users/martinb/dev/Criticue/widget/app/src/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/app/src/cljs"))
- ("/Users/martinb/dev/Criticue/widget/app/src/cljs/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/app/src/cljs/app"))
- ("/Users/martinb/dev/Criticue/widget/app/src/cljs/app/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/app/src/cljs/app/core.cljs"))
- ("/Users/martinb/dev/Criticue/widget/app/src/cljs/app/core.cljs" . 55)
- ("/Users/martinb/dev/Criticue/widget/app/src/cljs/app/views.cljs" . 111)
- ("/Users/martinb/dev/Criticue/widget/app/src/clj/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/app/src/clj/app"))
- ("/Users/martinb/dev/Criticue/widget/app/src/clj/app/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/app/src/clj/app/handler.clj"))
- ("/Users/martinb/dev/Criticue/widget/" . 837)
- ("/Users/martinb/dev/spikes/"
-  (dired-filename . "/Users/martinb/dev/spikes/.DS_Store"))
- ("/Users/martinb/dev/Criticue/widget/snapshots/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/snapshots/project.clj"))
- ("/Users/martinb/dev/Criticue/widget/snapshots/project.clj" . 1424)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj"))
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj/node"))
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/system.clj"))
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/exceptions.clj" . 530)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/timeout.clj" . 1104)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/system.clj" . 2415)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/backup.clj" . 3087)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/pipeline.clj" . 6327)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/job.clj" . 4151)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/pipes.clj" . 2119)
- ("/Users/martinb/dev/clojure_apps/proton/node/README.md" . 316)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/packaging.clj" . 1539)
- ("/Users/martinb/dev/clojure_apps/proton/node/test/cljs/node/server_status_filter_test.cljs" . 3470)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_status_view.cljs" . 5003)
- ("/Users/martinb/dev/clojure_apps/proton/node/test/clj/node/job_test.clj" . 170)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/io_helpers.clj" . 4833)
- ("/Users/martinb/dev/clojure_apps/proton/node/test/clj/node/pipes_test.clj" . 776)
- ("/Users/martinb/dev/clojure_apps/proton/backend/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/backend/profiles.clj"))
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/mailer.clj" . 1985)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/project.clj" . 27)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/deploy.sh" . 835)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/backend.clj" . 2266)
- ("/Users/martinb/dev/clojure_apps/proton/node/profiles.clj" . 186)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/v2/subscriptions.clj" . 1497)
- ("/Users/martinb/dev/clojure_apps/proton/backend/profiles.clj" . 647)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/v2/monitoring.clj" . 3604)
- ("/Users/martinb/dev/clojure_apps/reforms/rum-reforms/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/rum-reforms/project.clj"))
- ("/Users/martinb/dev/clojure_apps/reforms/rum-reforms/project.clj" . 31)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/health.clj" . 6687)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/core.clj" . 19993)
- ("/Users/martinb/dev/clojure_apps/proton/backend/project.clj" . 28)
- ("/Users/martinb/dev/Designedly/"
-  (dired-filename . "/Users/martinb/dev/Designedly/.DS_Store"))
- ("/Users/martinb/dev/spikes/compojure-template/src/leiningen/new/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/src/leiningen/new/.."))
- ("/Users/martinb/dev/spikes/compojure-template/src/leiningen/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/src/leiningen/.."))
- ("/Users/martinb/dev/spikes/compojure-template/src/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/src/.."))
- ("/Users/martinb/dev/spikes/compojure-template/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/resources"))
- ("/Users/martinb/dev/spikes/compojure-template/resources/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/resources/leiningen"))
- ("/Users/martinb/dev/spikes/compojure-template/resources/leiningen/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/resources/leiningen/new"))
- ("/Users/martinb/dev/spikes/compojure-template/resources/leiningen/new/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/resources/leiningen/new/compojure"))
- ("/Users/martinb/dev/spikes/compojure-template/resources/leiningen/new/compojure/"
-  (dired-filename . "/Users/martinb/dev/spikes/compojure-template/resources/leiningen/new/compojure/project.clj"))
- ("/Users/martinb/dev/spikes/compojure-template/resources/leiningen/new/compojure/project.clj" . 341)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/store/core.clj" . 2127)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/store/postgres.clj" . 4882)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/digest.clj" . 944)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/v1/monitoring.clj" . 524)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/store/memory.clj" . 2405)
- ("/Users/martinb/dev/clojure_apps/Logoot/idealist/src/cljs/idealist/draggable.cljs" . 544)
- ("/Users/martinb/dev/clojure_apps/Logoot/logoot/README.md" . 5055)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/recovery.clj" . 459)
- ("/Users/martinb/dev/clojure_apps/proton/deployment/s3deploy/s3deploy.rb" . 1435)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/backend/src/backend"))
- ("/Users/martinb/dev/clojure_apps/proton/provision/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/provision/lib"))
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/provision/lib/provision"))
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/releases.rb"))
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/releases.rb" . 1079)
- ("/Users/martinb/dev/clojure_apps/proton/provision/proton-provision.gemspec" . 129)
- ("/Users/martinb/dev/Criticue/widget/widget/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/widget/launch_app.rb"))
- ("/Users/martinb/dev/Criticue/widget/widget/launch_app.rb" . 763)
- ("/Users/martinb/dev/Criticue/widget/widget/Gemfile" . 677)
- ("/Users/martinb/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/net/http.rb" . 20091)
- ("/Users/martinb/dev/Criticue/widget/widget/config.ru" . 909)
- ("/Users/martinb/dev/clojure_apps/proton/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/ISS"))
- ("/Users/martinb/dev/clojure_apps/proton/ISS/compile_installer" . 422)
- ("/Users/martinb/dev/clojure_apps/proton/ISS/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/ISS/Readme.md"))
- ("/Users/martinb/dev/clojure_apps/proton/ISS/Readme.md" . 423)
- ("/Users/martinb/dev/Criticue/widget/widget/public/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/widget/public/css"))
- ("/Users/martinb/dev/Criticue/widget/widget/public/css/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/widget/public/css/wg.css"))
- ("/Users/martinb/dev/Criticue/widget/widget/public/css/wg.css" . 2149)
- ("/Users/martinb/dev/Criticue/widget/widget/views/test.html.haml" . 4086)
- ("/Users/martinb/dev/Criticue/widget/widget/public/js/wg.js" . 42464)
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/backend/src/backend/v2"))
- ("/Users/martinb/dev/clojure_apps/proton/backend/src/backend/v2/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/backend/src/backend/v2/monitoring.clj"))
- ("/Users/martinb/dev/clojure_apps/proton/backend/resources/migrations/20150918144454-add-friendly-name-to-subscriptions.down.sql" . 53)
- ("/Users/martinb/dev/clojure_apps/proton/backend/resources/sql/monitoring.sql" . 134)
- ("/Users/martinb/dev/clojure_apps/proton/backend/test/backend/store_test.clj" . 3545)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/oracle.cljs" . 1135)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/firebird.cljs" . 2071)
- ("/Users/martinb/dev/clojure_apps/reforms/rum-reforms/Readme.MD" . 583)
- ("/Users/martinb/dev/clojure_apps/reforms/rum-reforms/examples/controls/src/controls.cljs" . 2760)
- ("/Users/martinb/dev/clojure_apps/reforms/rum-reforms/examples/hello_world/src/hello_world.cljs" . 91)
- ("/Users/martinb/dev/Criticue/public/javascripts/app/review_page/views/CommentView.js" . 307)
- ("/Users/martinb/dev/Criticue/lib/stores/email_store.rb" . 276)
- ("/Users/martinb/.ssh/known_hosts" . 38647)
- ("/Users/martinb/dev/Criticue/widget/launch_app/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/launch_app/launch_app.rb"))
- ("/Users/martinb/dev/Criticue/widget/launch_app/public/assets/css/styles.css" . 362)
- ("/Users/martinb/dev/Criticue/views/_layout.haml" . 581)
- ("/Users/martinb/dev/Criticue/widget/launch_app/views/index.html.haml" . 868)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/assets/js/page/page.coming-soon-bg.js" . 788)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/assets/js/page/page.coming-soon.js" . 106)
- ("/Users/martinb/dev/Criticue/widget/launch_app/public/assets/css/theme.css" . 117918)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/assets/js/page/page.home.js" . 592)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/test.html.haml" . 4081)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/feature-panel.html" . 46327)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/documentation/assets/js/prettify.js" . 2108)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/documentation/assets/css/prettify.css" . 262)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/assets/css/prettify.css" . 759)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/assets/css/styles.css" . 294)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/index.html.haml" . 10617)
- ("/Users/martinb/dev/Criticue/widget/Z-Theme - Multipurpose Template/z-theme/feature-callout.html" . 49618)
- ("/Users/martinb/dev/Criticue/widget/launch_app/views/"
-  (dired-filename . "/Users/martinb/dev/Criticue/widget/launch_app/views/access_view.haml"))
- ("/Users/martinb/dev/Criticue/widget/launch_app/bacchus_api_app.rb" . 1662)
- ("/Users/martinb/dev/Criticue/widget/launch_app/Gemfile" . 203)
- ("/Users/martinb/dev/Criticue/widget/.gitignore" . 23)
- ("/Users/martinb/dev/Criticue/widget/launch_app/launch_app.rb" . 93)
- ("/Users/martinb/dev/Criticue/widget/launch_app/config.ru" . 233)
- ("/Users/martinb/dev/Criticue/widget/launch_app/views/access_view.haml" . 785)
- ("/Users/martinb/.emacs.d/customizations/editing.el" . 3325)
- ("/Users/martinb/dev/Criticue/Gemfile" . 1376)
- ("/Users/martinb/dev/Criticue/public/javascripts/criticue_api.js" . 1792)
- ("/Users/martinb/dev/Criticue/public/javascripts/app/account_page/SignupModel.js" . 1149)
- ("/Users/martinb/dev/Criticue/views/index.haml" . 6822)
- ("/Users/martinb/dev/Criticue/views/_navbar.haml" . 2682)
- ("/Users/martinb/dev/Criticue/config/motivoo.rb" . 2231)
- ("/Users/martinb/dev/Criticue/app/presenters/account_signup_presenter.rb" . 872)
- ("/Users/martinb/dev/Criticue/app/api_app.rb" . 3979)
- ("/Users/martinb/dev/Criticue/public/javascripts/SimpleEvents.js" . 334)
- ("/Users/martinb/dev/Criticue/spec/presenters/account_signup_presenter_spec.rb" . 2962)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/web_server.clj" . 6482)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/cli.clj" . 127)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/cli_handler.clj" . 8097)
- ("/Users/martinb/dev/clojure_apps/proton/auth/src/auth/api_conn.clj" . 5086)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/api/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/api/subscriptions.clj"))
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/api/subscriptions.clj" . 1309)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/api/helpers.clj" . 409)
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/backend_api/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/backend_api/subscriptions.rb"))
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/backend_api/api_client.rb" . 315)
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/backend_api/subscriptions.rb" . 80)
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/backend_api/auth_client.rb" . 1498)
- ("/Users/martinb/dev/clojure_apps/proton/health/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/proton/health/riemann.config.clj"))
- ("/Users/martinb/.m2/repository/amazonica/amazonica/0.3.28/amazonica-0.3.28.jar:amazonica/core.clj" . 5972)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/wizard.cljs" . 1905)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/core.cljs" . 4959)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/setup_wizard.cljs" . 1221)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/restore_wizard.cljs" . 16541)
- ("/Users/martinb/dev/clojure_apps/proton/node/resources/public/js/Blob.js" . 5931)
- ("/Users/martinb/dev/clojure_apps/proton/node/resources/index.html" . 1112)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/server.clj" . 1148)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/persistence.clj" . 1532)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/app_state.clj" . 1154)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/admin_dashboard.cljs" . 4912)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/initial_wizard.cljs" . 2013)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/context_help.cljs" . 773)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/validation.cljs" . 9103)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/validation.clj" . 1164)
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/subscription_destroyer.rb" . 853)
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/backend_api/rest_client.rb" . 1244)
- ("/Users/martinb/dev/clojure_apps/proton/provision/lib/provision/subscription.rb" . 144)
- ("/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/"
-  (dired-filename . "/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src"))
- ("/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src/"
-  (dired-filename . "/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src/cljs"))
- ("/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src/cljs/"
-  (dired-filename . "/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src/cljs/animation"))
- ("/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src/cljs/animation/"
-  (dired-filename . "/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src/cljs/animation/core.cljs"))
- ("/Users/martinb/dev/spikes/reagent-cookbook/recipes/ReactCSSTransitionGroup/src/cljs/animation/core.cljs" . 442)
- ("/Users/martinb/"
-  (dired-filename . "/Users/martinb/.CF89AA64"))
- ("/Users/martinb/dev/clojure_apps/reforms/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/examples/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent/controls"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent/controls/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent/controls/src"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent/controls/src/"
-  (dired-filename . "/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent/controls/src/controls.cljs"))
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/examples/reagent/controls/src/controls.cljs" . 371)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/.gitignore" . 243)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/binding/core.cljs" . 885)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/test/reforms/core/impl_test.cljs" . 310)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/test/reforms/core/react_keys_test.cljs" . 464)
- ("/Users/martinb/dev/clojure_apps/reforms/reforms/src/reforms/core/impl.cljs" . 4715)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/server_api.cljs" . 845)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/api/storage.clj" . 849)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/databases/core.cljs" . 24)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/upload.cljs" . 851)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/activation.cljs" . 901)
- ("/Users/martinb/dev/clojure_apps/proton/node/env/dev/clj/user.clj" . 769)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/scheduler.clj" . 4575)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/clj/node/async.clj" . 3043)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/hint_view.cljs" . 843)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/om_helpers.cljs" . 1553)
- ("/Users/martinb/dev/clojure_apps/proton/.gitignore" . 2847)
- ("/Users/martinb/dev/clojure_apps/proton/node/src/cljs/node/html.cljs" . 510)
- ("/Users/martinb/dev/clojure_apps/proton/node/resources/public/css/style.css" . 3106)
- ("/Users/martinb/Downloads/"
-  (dired-filename . "/Users/martinb/Downloads/$RECYCLE.BIN")))
+ ("/Users/martinb/dev/clojure_apps/proton/proton-billing/app/helpers/logs_helper.rb" . 1175))
